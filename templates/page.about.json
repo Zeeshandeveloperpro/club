@@ -1,0 +1,286 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_qBTHAi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RVeqHf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pourquoi choisir Clublab ?",
+            "heading_size": "h2"
+          }
+        },
+        "text_qXe8qC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez <strong>Clublab</strong>, nous donnons vie à vos idées !</p><p>Spécialisés dans la <strong>personnalisation de textiles et de goodies</strong> pour les professionnels comme pour les particuliers, nous vous accompagnons dans tous vos projets, de la création à la livraison. Que ce soit pour un événement, une équipe, une entreprise ou une occasion spéciale, nous mettons notre savoir-faire au service de vos envies.</p><p>Notre <strong>labo de création</strong>, installé à deux pas de <strong>Lille</strong>, dans les <strong>Hauts-de-France</strong>, est le cœur battant de notre activité. C’est ici que vos projets prennent forme, portés par une équipe passionnée, réactive et à l’écoute.</p><p>Chez Clublab, nous ne faisons pas que produire :<br/>- <strong>Nous conseillons</strong><br/>- <strong>Nous créons</strong><br/>- <strong>Nous suivons chaque étape</strong><br/>- Et surtout, <strong>nous nous engageons à vos côtés</strong></p><p>Notre objectif ? Vous garantir un résultat <strong>100 % personnalisé</strong>, <strong>de qualité</strong>, et livré dans les temps, avec la <strong>satisfaction client comme priorité absolue</strong>.</p><p>Vous avez un projet ?<br/>Nous sommes là pour le concrétiser, de A à Z.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVeqHf",
+        "text_qXe8qC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC_6838-Modifier.jpg",
+        "height": "adapt",
+        "full_width": true,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_xkXC8P": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "scrolling_promotion_HaMtWk": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_hcKCqh": {
+          "type": "announcement",
+          "settings": {
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Join the club",
+            "text_size": 76,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hcKCqh"
+      ],
+      "custom_css": [
+        ".promotion__item {max-width: unset;}"
+      ],
+      "name": "Scrolling animation",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dNxEDy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yEzA6j": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>“Notre mission chez Clublab : créer des textiles et objets personnalisés à la fois esthétiques et durables, pour vous.”</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_yEzA6j"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "company_values_rY3LxL": {
+      "type": "company-values",
+      "blocks": {
+        "value_item_R7ehzB": {
+          "type": "value_item",
+          "settings": {
+            "number": "01",
+            "title": "La qualité avant tout",
+            "description": "Nous privilégions des articles bien conçus et résistants, loin de l'éphémère.",
+            "link_url": "",
+            "link_text": "En savoir plus"
+          }
+        },
+        "value_item_rCmmgN": {
+          "type": "value_item",
+          "settings": {
+            "number": "02",
+            "title": "Le design au coeur de nos choix",
+            "description": "Parce que l'esthétique compte, nous veillons à ce que nos créations soient aussi belles que fonctionnelles.",
+            "link_url": "",
+            "link_text": "En savoir plus"
+          }
+        },
+        "value_item_ymEFGD": {
+          "type": "value_item",
+          "settings": {
+            "number": "03",
+            "title": "Un sourcing adapté",
+            "description": "Nous travaillons avec des fabricants respectant une approche responsable.",
+            "link_url": "",
+            "link_text": "En savoir plus"
+          }
+        }
+      },
+      "block_order": [
+        "value_item_R7ehzB",
+        "value_item_rCmmgN",
+        "value_item_ymEFGD"
+      ],
+      "name": "Company Values",
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "image_with_text_7q78pq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mNfXAw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Des cadeaux d’exception, mais aussi un service d’exception</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_jxFwzf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Clublab, nous mettons un point d’honneur à satisfaire nos clients en leur offrant un service sur mesure. Notre équipe dédiée, de la conception à la livraison s’engage à vous offrir la meilleure expérience possible.</p><p>Tout commence avec notre équipe commerciale qui est là pour comprendre vos besoins spécifiques et vous guider dans les meilleurs choix, que ce soit pour vous conseiller sur les options de personnalisation ou pour trouver le produit parfait qui reflète votre identité. Cette équipe est à votre écoute pour répondre au mieux à vos attentes. </p><p>Nous savons aussi qu’il n’est pas toujours facile de mettre ses idées en image. C’est pourquoi, si vous avez une inspiration, une envie ou même une simple esquisse en tête, notre graphiste est là pour vous accompagner. </p><p>Une fois le devis signé, c’est notre chef de projet qui prend le relai pour suivre toute les étapes de commande, de production et de livraison. Nous collaborons avec des partenaires utilisant des équipements et des techniques de pointe pour produire des articles personnalisés de qualité. </p><p>Chez Clublab nous ne faisons aucun compromis : chaque détail compte pour que vos produits soient uniques !</p>",
+            "text_style": "body"
+          }
+        },
+        "button_mVJiEh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mNfXAw",
+        "text_jxFwzf",
+        "button_mVJiEh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/fce313_6b12880803e645899cad16ab74a5fd30_mv2.avif",
+        "height": "adapt",
+        "full_width": true,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-fb189321-5228-450f-baea-0253a9212d31",
+        "color_scheme": "scheme-fb189321-5228-450f-baea-0253a9212d31",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_idKCLP": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_m3UQrD": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_8Pr7HE": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_P9X4yC": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_C4Bt9m": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_P6aKtj": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_m3UQrD",
+        "z_faq_8Pr7HE",
+        "z_faq_P9X4yC",
+        "z_faq_C4Bt9m",
+        "z_faq_P6aKtj"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fffbf4",
+        "z_heading_color": "#2d1f00",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "Voir plus",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_qBTHAi",
+    "custom_liquid_xkXC8P",
+    "scrolling_promotion_HaMtWk",
+    "rich_text_dNxEDy",
+    "company_values_rY3LxL",
+    "image_with_text_7q78pq",
+    "faq_idKCLP"
+  ]
+}

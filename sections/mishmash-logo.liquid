@@ -1,0 +1,374 @@
+
+    <style>
+
+     
+
+        .z-partners-section {
+            padding: 80px 0;
+            background-color: #ffffff;
+        }
+
+        .z-section-header {
+            margin-bottom: 60px;
+        }
+
+        .z-section-title {
+        
+          
+            color: #1a1a1a;
+            line-height: 1.1;
+                max-width: 419px;
+                margin : 0;
+        }
+
+        .z-section-subtitle {
+            font-size: 18px;
+            color: #6b7280;
+            margin-top: 20px;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+
+        .z-partners-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 0px;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .z-partner-card {
+            width: 100%;
+            height: 120px;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+       
+
+        .z-partner-logo {
+            max-width: 80%;
+            max-height: 60%;
+            object-fit: contain;
+            
+            transition: all 0.3s ease;
+        }
+
+      
+
+        .z-partner-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #374151;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .z-partner-card:hover .z-partner-text {
+            color: #1a1a1a;
+        }
+
+        /* Alternative layout options */
+        .z-partners-grid.z-layout-2 {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 30px;
+        }
+
+        .z-partners-grid.z-layout-3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .z-partners-grid.z-layout-3 .z-partner-card {
+            width: 200px;
+            flex-shrink: 0;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .z-partners-section {
+                padding: 60px 0;
+            }
+
+            .z-section-header {
+                margin-bottom: 40px;
+            }
+
+            .z-partners-grid {
+                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                gap: 24px;
+            }
+
+            .z-partner-card {
+                height: 100px;
+            }
+
+            .z-partner-text {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-width {
+                padding: 0 16px;
+            }
+
+            .z-partners-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .z-partner-card {
+                height: 80px;
+            }
+
+            .z-partner-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <section class="z-partners-section">
+        <div class="page-width">
+            {% if section.settings.z_show_header %}
+                <div class="z-section-header">
+                    {% if section.settings.z_title != blank %}
+                        <h2 class="z-section-title">{{ section.settings.z_title }}</h2>
+                    {% endif %}
+                    {% if section.settings.z_subtitle != blank %}
+                        <p class="z-section-subtitle">{{ section.settings.z_subtitle }}</p>
+                    {% endif %}
+                </div>
+            {% endif %}
+
+            {% if section.blocks.size > 0 %}
+                <div class="z-partners-grid z-layout-{{ section.settings.z_layout }}">
+                    {% for block in section.blocks %}
+                        {% if block.type == 'partner' %}
+                            <div class="z-partner-card" {{ block.shopify_attributes }}>
+                                {% if block.settings.z_partner_url != blank %}
+                                    <a href="{{ block.settings.z_partner_url }}" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; text-decoration: none;">
+                                {% endif %}
+
+                                {% if block.settings.z_partner_logo != blank %}
+                                    <img 
+                                        src="{{ block.settings.z_partner_logo | img_url: '300x200' }}" 
+                                        alt="{{ block.settings.z_partner_name | escape }}"
+                                        class="z-partner-logo"
+                                        loading="lazy"
+                                    />
+                                {% elsif block.settings.z_partner_name != blank %}
+                                    <div class="z-partner-text">{{ block.settings.z_partner_name }}</div>
+                                {% endif %}
+
+                                {% if block.settings.z_partner_url != blank %}
+                                    </a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </section>
+
+
+{% schema %}
+{
+  "name": "Partners & Logos",
+  "tag": "section",
+  "class": "z-partners",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "z_show_header",
+      "label": "Show section header",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "z_title",
+      "label": "Section Title",
+      "default": "Happy and trusted partners."
+    },
+    {
+      "type": "textarea",
+      "id": "z_subtitle",
+      "label": "Section Subtitle",
+      "default": "Trusted by leading companies around the world"
+    },
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "select",
+      "id": "z_layout",
+      "label": "Layout Style",
+      "options": [
+        {
+          "value": "1",
+          "label": "Grid Layout"
+        },
+        {
+          "value": "2",
+          "label": "Compact Grid"
+        },
+        {
+          "value": "3",
+          "label": "Centered Row"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "header",
+      "content": "Section Styling"
+    },
+    {
+      "type": "color",
+      "id": "z_bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "z_text_color",
+      "label": "Text Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "z_card_bg_color",
+      "label": "Card Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "z_card_border_color",
+      "label": "Card Border Color",
+      "default": "#e5e7eb"
+    },
+    {
+      "type": "range",
+      "id": "z_padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "z_padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 80
+    }
+  ],
+  "blocks": [
+    {
+      "type": "partner",
+      "name": "Partner/Logo",
+      "settings": [
+        {
+          "type": "text",
+          "id": "z_partner_name",
+          "label": "Partner Name",
+          "default": "Partner Name",
+          "info": "Used as alt text and fallback if no logo is uploaded"
+        },
+        {
+          "type": "image_picker",
+          "id": "z_partner_logo",
+          "label": "Partner Logo",
+          "info": "Recommended size: 300x200px"
+        },
+        {
+          "type": "url",
+          "id": "z_partner_url",
+          "label": "Partner Website URL",
+          "info": "Optional - makes the logo clickable"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Partners & Logos",
+      "settings": {
+        "z_title": "Happy and trusted partners."
+      },
+      "blocks": [
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "FREEPIK"
+          }
+        },
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "readymag"
+          }
+        },
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "GUGGENHEIM"
+          }
+        },
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "SALSA JEANS"
+          }
+        },
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Retool"
+          }
+        },
+        {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "ACCENT"
+          }
+        }
+      ]
+    }
+  ],
+  "max_blocks": 20
+}
+{% endschema %}
+
+<style>
+  .z-partners {
+    background-color: {{ section.settings.z_bg_color }};
+    color: {{ section.settings.z_text_color }};
+  }
+
+  .z-partners .z-partners-section {
+    padding-top: {{ section.settings.z_padding_top }}px;
+    padding-bottom: {{ section.settings.z_padding_bottom }}px;
+  }
+
+  .z-partners .z-partner-card {
+    background-color: {{ section.settings.z_card_bg_color }};
+    border-color: {{ section.settings.z_card_border_color }};
+  }
+</style>

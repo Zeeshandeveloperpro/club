@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_hV7pHJ": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/NEW_VIDEO_HOMEPAGE_FINAL.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "scrolling_promotion_WK7kXE": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_ELPyKq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_NU_ec583aef-37d9-47e2-97b6-c5816cdfa5b7.svg",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image_3EW37y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bureaubarbara_logo.jpg",
+            "height": 112,
+            "link": ""
+          }
+        },
+        "image_wmgLiU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6268_3_6ce92699-4384-4c40-8b63-ed91df89da36.jpg",
+            "height": 96,
+            "link": ""
+          }
+        },
+        "image_WCRyHg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/images-2_0230230d-f989-4b52-af7d-6fad1e797475.png",
+            "height": 40,
+            "link": ""
+          }
+        },
+        "image_3PiybD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOreal-Logo-1962-present_b02b7f47-e3a3-4944-a06f-c1c25ef2efc3.jpg",
+            "height": 116,
+            "link": ""
+          }
+        },
+        "image_FBPH9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2024-12-08_a_10.38.19_0140576a-d964-4eac-91a0-a531f8d2e389.png",
+            "height": 40,
+            "link": ""
+          }
+        },
+        "image_er9iXB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_GoodLife_Rose_200x200-1-1_png_50185aae-1b03-4c44-95d2-5157ab3c2e6e.webp",
+            "height": 76,
+            "link": ""
+          }
+        },
+        "image_aqJLkq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-02-25_a_14.02.41.png",
+            "height": 104,
+            "link": ""
+          }
+        },
+        "image_cRrRQH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_AuxArtiste_2_1efbd163-5b59-4528-b6cb-e934f56512ef.png",
+            "height": 52,
+            "link": ""
+          }
+        },
+        "image_LEgznJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOGO-AERIA-declinaison-768x543_a3f548b5-4e62-4d09-9344-dcdbc9dbee9f.png",
+            "height": 96,
+            "link": ""
+          }
+        },
+        "image_388bfc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOGO_PRINCIPAL_JAUNE_c2f76256-c254-474a-9ab0-3b086d131c9e.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image_NGKhf7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CASA-MAZITA-Valise-Logo-VECTO-10_419d5067-1073-4f85-8532-5e25ac605d1b.png",
+            "height": 72,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ELPyKq",
+        "image_3EW37y",
+        "image_wmgLiU",
+        "image_WCRyHg",
+        "image_3PiybD",
+        "image_FBPH9d",
+        "image_er9iXB",
+        "image_aqJLkq",
+        "image_cRrRQH",
+        "image_LEgznJ",
+        "image_388bfc",
+        "image_NGKhf7"
+      ],
+      "name": "Scrolling animation",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "text_learn_more_UkCxf6": {
+      "type": "text-learn-more",
+      "name": "Hero with Hover Circle",
+      "settings": {
+        "heading_before": "Vos idées. Notre savoir-faire. Des textiles et objets sur mesure qui incarnent",
+        "hover_word": "votre identité.",
+        "heading_after": "Bienvenue chez Clublab.",
+        "learn_more_text": "Voir plus",
+        "url_hover_button": "shopify://pages/about",
+        "button_label": "",
+        "button_link": "shopify://pages/about"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_JxUihr": {
+          "type": "collection",
+          "settings": {
+            "text": "Tee shirt",
+            "collection": "featured-collection"
+          }
+        },
+        "collection_tUrDkE": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "text": "Sweats",
+            "collection": "sweats"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JxUihr",
+        "collection_tUrDkE"
+      ],
+      "settings": {
+        "collection": "sweats",
+        "products_to_show": 8,
+        "title": "PRODUITS PHARES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "custom_banner_MdVeRY": {
+      "type": "custom_banner",
+      "name": "Custom Banner",
+      "settings": {
+        "background_image": "shopify://shop_images/IMG_6493.heic",
+        "heading": "Découvrez les produits Clublab",
+        "button_link": "shopify://collections/sweats",
+        "button_text": "En savoir plus",
+        "desktop_height": 850,
+        "mobile_height": 400
+      }
+    },
+    "multicolumn_YDDaei": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AD9DKD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Stand_QS50.png",
+            "title": "Prodir",
+            "text": "<p>Stylos personnalisés made in Swiss.</p>",
+            "link_label": "En savoir plus",
+            "link": "shopify://pages/prodir-swiss-made-pens"
+          }
+        },
+        "column_a9phjj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MMBP_Overview_Header_png.webp",
+            "title": "Mishmash",
+            "text": "<p>Papeterie créative, fine et esthétique.</p>",
+            "link_label": "En savoir plus",
+            "link": "shopify://pages/mishmash-notebooks"
+          }
+        },
+        "column_bG9Dig": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/c1af35_c093aaa5920340498a8568fc6402fc2e_mv2_jpg.avif",
+            "title": "La Fab Riviera",
+            "text": "<p>Maroquinerie café, hotels et restaurants, made in France.</p>",
+            "link_label": "En savoir plus",
+            "link": "shopify://pages/la-fab"
+          }
+        }
+      },
+      "block_order": [
+        "column_AD9DKD",
+        "column_a9phjj",
+        "column_bG9Dig"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "MARQUES CHR & OFFICE",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "quote_iUt3rc": {
+      "type": "Quote",
+      "blocks": {
+        "testimonial_cHqcnx": {
+          "type": "testimonial",
+          "settings": {
+            "quote_text": "Au delà de la sympathie et la relation excellente, c’est la qualité des produits et l’accompagnement qui nous a plu.",
+            "author_name": "Thomas Becquart",
+            "company_name": "LE BARON",
+            "company_link": "#"
+          }
+        },
+        "testimonial_rLq8ey": {
+          "type": "testimonial",
+          "settings": {
+            "quote_text": "Parfait de A à Z... de la conception à la livraison il n'y a rien à dire... des textiles de qualité au juste prix ! MERCI CLUBLAB",
+            "author_name": "Café de Paris - Chez Boubier 1930",
+            "company_name": "",
+            "company_link": "#"
+          }
+        },
+        "testimonial_nVXPag": {
+          "type": "testimonial",
+          "settings": {
+            "quote_text": "Vraiment merci merci merci! \nLes t-shirt plaisent à fond la caisse ! \nLa qualité est dingue! Vous êtes trop forts !!!",
+            "author_name": "By Agathe // Barré studio",
+            "company_name": "Club Lab ❤‍🔥",
+            "company_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_cHqcnx",
+        "testimonial_rLq8ey",
+        "testimonial_nVXPag"
+      ],
+      "name": "Quote Slider",
+      "settings": {}
+    },
+    "faq_6hkmFc": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_RzgJtk": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_NNd3in": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_ERD6Na": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_PMfaNc": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_PfDfbt": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_RzgJtk",
+        "z_faq_NNd3in",
+        "z_faq_ERD6Na",
+        "z_faq_PMfaNc",
+        "z_faq_PfDfbt"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fefbf2",
+        "z_heading_color": "#fefbf2",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "Voir plus",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#fefbf2"
+      }
+    },
+    "newsletter_gMBzzL": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_XMRbR6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe, and get access to exclusive news, sneak peaks on new launches",
+            "heading_size": "h2"
+          }
+        },
+        "email_form_zXJFWF": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_XMRbR6",
+        "email_form_zXJFWF"
+      ],
+      "disabled": true,
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-fb189321-5228-450f-baea-0253a9212d31",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "video_hV7pHJ",
+    "scrolling_promotion_WK7kXE",
+    "image_banner",
+    "text_learn_more_UkCxf6",
+    "featured_collection",
+    "custom_banner_MdVeRY",
+    "multicolumn_YDDaei",
+    "quote_iUt3rc",
+    "faq_6hkmFc",
+    "newsletter_gMBzzL"
+  ]
+}

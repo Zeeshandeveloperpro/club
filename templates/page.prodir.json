@@ -1,0 +1,124 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_WhFWhy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zRPF7k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trouvez votre stylo, racontez votre histoire.",
+            "heading_size": "h2"
+          }
+        },
+        "text_wiA8aH": {
+          "type": "text",
+          "settings": {
+            "text": "En 2013, Prodir a été le premier fabricant à proposer exclusivement des stylos à bille rechargeables. Aujourd'hui, nous sommes les premiers à proposer des stylos à bille en biopolymères sans plastique (PHA).Des matériaux innovants pour des produits au design intemporel et durables préservent les ressources et garantissent que les messages de marque crédibles atteignent un large public sur le long terme.",
+            "text_style": "body"
+          }
+        },
+        "buttons_qAFEXz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Collection de stylos",
+            "button_link_1": "shopify://collections/stylo",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zRPF7k",
+        "text_wiA8aH",
+        "buttons_qAFEXz"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Home_FindYourPen.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_v2_4PzYwh": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_UdpiwU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trouvez votre stylo, racontez votre histoire.",
+            "heading_size": "h2"
+          }
+        },
+        "text_k3TEBL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Couleurs, surfaces et matériaux font d’un stylo un ambassadeur de marque.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_mgGxM8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Créez le vôtre",
+            "button_link": "https://configurator.prodir.com/en/?reseller=clublab",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_UdpiwU",
+        "text_k3TEBL",
+        "button_mgGxM8"
+      ],
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/download_7d640d07-186c-404e-8f42-4c4adf2ca7c3.webp",
+        "height": "small",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_WhFWhy",
+    "image_with_text_v2_4PzYwh"
+  ]
+}

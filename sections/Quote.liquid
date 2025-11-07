@@ -1,0 +1,122 @@
+
+<div class="page-width">
+<div class="testimonial-slider swiper">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <p class="quote">"{{ block.settings.quote_text }}"</p>
+       {% if block.settings.author_name != blank %} <p class="author">{{ block.settings.author_name }} {% if block.settings.company_name != blank %}- <a href="{{ block.settings.company_link }}">{{ block.settings.company_name }}</a>{% endif %}</p> {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+</div>
+{% stylesheet %}
+  .testimonial-slider {
+    position: relative;
+    padding: 150px 0px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+
+  .testimonial-slider .quote {
+    font-size: 2rem;
+    line-height: 1.4;
+    /* font-family: serif; */
+    max-width: 90rem;
+        margin-inline: auto;
+        margin-block: 0;
+        line-height: 1.1;
+            font-family: var(--font-heading-family);
+  }
+
+  .testimonial-slider .author {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    /* font-weight: 500; */
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
+ 
+ .testimonial-slider .swiper-pagination {
+        position: static;
+    margin-top: 9rem;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+  }
+.testimonial-slider .swiper-pagination-bullet {
+  width: 11px;
+    height: 11px;
+  background: black;
+  opacity: .2;
+}
+.testimonial-slider  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: black;
+    opacity: 1;
+  }
+  @media (min-width: 768px) {
+    .testimonial-slider .quote {
+      font-size: 8rem;
+    }
+  }
+{% endstylesheet %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.testimonial-slider', {
+      loop: true,
+      pagination: {
+        el: '.testimonial-slider .swiper-pagination',
+        clickable: true,
+      },
+    });
+  });
+</script>
+
+
+{% schema %}
+{
+  "name": "Quote Slider",
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "quote_text",
+          "label": "Quote"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author Name"
+        },
+        {
+          "type": "text",
+          "id": "company_name",
+          "label": "Company Name"
+        },
+        {
+          "type": "url",
+          "id": "company_link",
+          "label": "Company Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Quote Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+

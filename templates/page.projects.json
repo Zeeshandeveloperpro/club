@@ -1,0 +1,262 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_kznbYB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EMfxgC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CLUBLAB-11120_d7063467-b07e-45ed-b479-cec8f4ff5517.jpg",
+            "title": "Bouillant",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cxcRTC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CLUBLAB-11136_03006b16-bbd9-48d3-a0b1-1f840baa8f32.jpg",
+            "title": "Costaud",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w9cPgt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4572.jpg",
+            "title": "ALOYA",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8a4m7a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/R0003576-2.heic",
+            "title": "ORY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7DyxRR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8803.jpg",
+            "title": "Bouillant",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NP7JtX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CLUBLAB-11145_d41a444b-96d4-4adc-9ad9-26075ad56ea5.jpg",
+            "title": "6h50",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_znMBRH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7288.jpg",
+            "title": "Caza Mazita",
+            "text": "<p>Casquettes pour le restaurant méditérranéen <strong>Caza Mazita</strong> à Marcq-en-Baroeul </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_P3fFb7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8336_ba2680a5-9eca-43f5-8150-261d6474c124.jpg",
+            "title": "Burning Miles",
+            "text": "<p>Maillot de sport et chaussettes pour le club de run <strong>Burning Miles</strong> à Lille</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XfYUUT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/0333EAE7-5275-4AC9-8819-F36A1CB2A601.jpg",
+            "title": "Bureau Barbara",
+            "text": "<p>Chaussettes brodées pour le studio de branding <strong>Bureau Barbara</strong> à Lille</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9DBrYU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-04-06-21-38-53_76a074a0-3095-407a-83e3-e22a984b2ca3.jpg",
+            "title": "Bernard et león",
+            "text": "<p>Sweats et t-shirts pour le restaurant de bowls <strong>Bernard & Léon</strong> à Lille</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_f7KinC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CLUBLAB-11181_866e1e2a-bf42-4758-928b-ba79fe629a18.jpg",
+            "title": "NU",
+            "text": "<p>Sweats pour le restaurant roof-top <strong>Nu</strong> à Lille </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hB3w7m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-09-18_at_15.46.18.jpg",
+            "title": "Yves saint laurent",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yfBKN3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPTOE_EVENT_10-ANS_147-scaled_jpg.webp",
+            "title": "TIP TOE",
+            "text": "<p>T-shirts et tote bag pour les 10 ans de la boutique de design <strong>Tip Toe</strong> à Paris</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9kjTrf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-04-06-21-38-51_2.jpg",
+            "title": "Bernard et león",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EMfxgC",
+        "column_cxcRTC",
+        "column_w9cPgt",
+        "column_8a4m7a",
+        "column_7DyxRR",
+        "column_NP7JtX",
+        "column_znMBRH",
+        "column_P3fFb7",
+        "column_XfYUUT",
+        "column_9DBrYU",
+        "column_f7KinC",
+        "column_hB3w7m",
+        "column_yfBKN3",
+        "column_9kjTrf"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "faq_VV4WUk": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_nX4xNf": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_xDAQJT": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_UgpqDp": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_UFtKEP": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_CFJyqk": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_nX4xNf",
+        "z_faq_xDAQJT",
+        "z_faq_UgpqDp",
+        "z_faq_UFtKEP",
+        "z_faq_CFJyqk"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fffbf4",
+        "z_heading_color": "#2d1f00",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "Voir plus",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_kznbYB",
+    "faq_VV4WUk"
+  ]
+}

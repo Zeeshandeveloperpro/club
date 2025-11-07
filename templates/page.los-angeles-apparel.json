@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_v2_xjpFak": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_9pYVqf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Passionate about doing things differently",
+            "heading_size": "h1"
+          }
+        },
+        "text_iHid3M": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Los Angeles Apparel</h2><p>Los Angeles Apparel est une marque américaine indépendante, fondée avec une vision claire : produire des vêtements de qualité, dans le respect des personnes et de l’environnement. Basée à Los Angeles, l’entreprise conçoit et fabrique l’intégralité de ses collections localement, dans ses propres ateliers.</p><p>Leur engagement repose sur plusieurs piliers :</p><ul><li><strong>Une production éthique</strong> : tous les employés bénéficient de conditions de travail sécurisées et de salaires justes, bien au-dessus des standards du secteur.</li><li><strong>Un savoir-faire reconnu</strong> : leurs équipes maîtrisent des méthodes de confection à la fois traditionnelles et innovantes, garantissant des pièces solides et durables.</li><li><strong>Un ancrage local fort</strong> : en produisant sur place, Los Angeles Apparel soutient l’économie locale et limite son empreinte carbone liée aux transports.</li></ul><p>Collaborer avec Los Angeles Apparel, c’est faire le choix d’un textile authentique, traçable et responsable, sans compromis sur le style et la qualité.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9pYVqf",
+        "text_iHid3M"
+      ],
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/1201wgdBKEDG6SupportIMG7_051325192121.png",
+        "height": "adapt",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_CJPPDD": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_MqHYPG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cotton_usa.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_i99qMB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/dov-cutting.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_MqHYPG",
+        "slide_i99qMB"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur votre marque"
+      }
+    },
+    "image_with_text_DaMnLB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WKiNmB": {
+          "type": "heading",
+          "settings": {
+            "heading": "MADE IN USA",
+            "heading_size": "h1"
+          }
+        },
+        "text_ahAyTa": {
+          "type": "text",
+          "settings": {
+            "text": "<h3></h3><p>Chez Clublab, nous choisissons nos partenaires avec exigence. Travailler avec <strong>Los Angeles Apparel</strong>, c’est s’appuyer sur un fabricant qui partage nos valeurs : des vêtements de haute qualité, produits localement et dans des conditions de travail exemplaires.</p><p>Basée à Los Angeles, leur usine incarne un modèle unique : rémunérations justes (jusqu’à 35$/h avec primes de productivité), ateliers sécurisés et gestion éthique. Une approche <strong>#SweatshopFree</strong> qui redonne ses lettres de noblesse à l’industrie textile américaine.</p><p>Leur savoir-faire repose sur un équilibre entre méthodes traditionnelles et innovations technologiques. Beaucoup de leurs artisans accompagnent le projet depuis plus de dix ans, garantissant une expertise rare et des pièces pensées pour durer.</p><p>En choisissant Los Angeles Apparel, Clublab soutient une production <strong>100% locale, sans sous-traitance ni délocalisation</strong>, afin de préserver un contrôle total sur la qualité et l’éthique de chaque pièce.<br/>Un engagement qui fait sens : privilégier une mode responsable, durable, et respectueuse de ceux qui la fabriquent.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WKiNmB",
+        "text_ahAyTa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/our-values-2_jpg.webp",
+        "height": "small",
+        "full_width": false,
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "mishmash_logo_mfJ9q6": {
+      "type": "mishmash-logo",
+      "blocks": {
+        "partner_eiBFbT": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "FREEPIK",
+            "z_partner_logo": "shopify://shop_images/images-2_0230230d-f989-4b52-af7d-6fad1e797475.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_eTDkkz": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "readymag",
+            "z_partner_logo": "shopify://shop_images/CASA-MAZITA-Valise-Logo-VECTO-10_419d5067-1073-4f85-8532-5e25ac605d1b.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_tbazEM": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "GUGGENHEIM",
+            "z_partner_logo": "shopify://shop_images/LOGO_PRINCIPAL_JAUNE_c2f76256-c254-474a-9ab0-3b086d131c9e.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_rTjdcE": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "SALSA JEANS",
+            "z_partner_logo": "shopify://shop_images/LOGO-AERIA-declinaison-768x543_a3f548b5-4e62-4d09-9344-dcdbc9dbee9f.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_KWL3xG": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Retool",
+            "z_partner_logo": "shopify://shop_images/Logo_AuxArtiste_2_1efbd163-5b59-4528-b6cb-e934f56512ef.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_gqMhXL": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "ACCENT",
+            "z_partner_logo": "shopify://shop_images/Capture_d_ecran_2025-02-25_a_14.02.41.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_crR6qH": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Logo_GoodLife_Rose_200x200-1-1_png_50185aae-1b03-4c44-95d2-5157ab3c2e6e.webp",
+            "z_partner_url": ""
+          }
+        },
+        "partner_9izTff": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Capture_d_ecran_2024-12-08_a_10.38.19_0140576a-d964-4eac-91a0-a531f8d2e389.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_8rm73H": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/LOreal-Logo-1962-present_b02b7f47-e3a3-4944-a06f-c1c25ef2efc3.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_dJNkMF": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/IMG_6268_3_6ce92699-4384-4c40-8b63-ed91df89da36.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_MnNDJx": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/bureaubarbara_logo.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_AApezA": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Logo_NU_ec583aef-37d9-47e2-97b6-c5816cdfa5b7.svg",
+            "z_partner_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_eiBFbT",
+        "partner_eTDkkz",
+        "partner_tbazEM",
+        "partner_rTjdcE",
+        "partner_KWL3xG",
+        "partner_gqMhXL",
+        "partner_crR6qH",
+        "partner_9izTff",
+        "partner_8rm73H",
+        "partner_dJNkMF",
+        "partner_MnNDJx",
+        "partner_AApezA"
+      ],
+      "disabled": true,
+      "name": "Partners & Logos",
+      "settings": {
+        "z_show_header": true,
+        "z_title": "Happy and trusted partners.",
+        "z_subtitle": "Trusted by leading companies around the world",
+        "z_layout": "1",
+        "z_bg_color": "#ffffff",
+        "z_text_color": "#1a1a1a",
+        "z_card_bg_color": "#ffffff",
+        "z_card_border_color": "#e5e7eb",
+        "z_padding_top": 40,
+        "z_padding_bottom": 40
+      }
+    },
+    "image_with_text_v2_Qe3cWC": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_bXV3Nx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trouvez votre stylo, racontez votre histoire.",
+            "heading_size": "h2"
+          }
+        },
+        "text_WBjnmX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Couleurs, surfaces et matériaux font d’un stylo un ambassadeur de marque.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_4a7ADz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Créez le vôtre",
+            "button_link": "shopify://collections/casquettes",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_bXV3Nx",
+        "text_WBjnmX",
+        "button_4a7ADz"
+      ],
+      "disabled": true,
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/download_7d640d07-186c-404e-8f42-4c4adf2ca7c3.webp",
+        "height": "small",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_v2_xjpFak",
+    "slideshow_CJPPDD",
+    "image_with_text_DaMnLB",
+    "mishmash_logo_mfJ9q6",
+    "image_with_text_v2_Qe3cWC"
+  ]
+}

@@ -1,0 +1,64 @@
+{% if collection.description != blank %}
+<div class="collection__description" style="--page-width:800px">
+    <div class="page-width">
+        <div class="collection__description__content">
+            {{ collection.description }}
+        </div>
+        <a href="#" class="show_more_button"> Read more</a>
+    </div>
+</div>
+<style>
+    .collection__description {
+        padding-bottom: 20rem;
+    }
+
+    .collection__description .page-width {
+        margin-inline: auto;
+    }
+
+    .collection__description__content {
+        overflow: hidden;
+    }
+
+    .show_more_button {
+        margin-top: 16px;
+        display: none;
+    }
+</style>
+<script>
+    let selector = document.querySelector(".collection__description__content");
+    let show_more_button = document.querySelector(".collection__description .show_more_button");
+    if (selector) {
+        let threshhold = 400;
+        let maxHeight = selector.scrollHeight;
+        if (maxHeight >= threshhold) {
+            selector.style.maxHeight = `${threshhold}px`;
+            let show_more_button = document.querySelector(".collection__description .show_more_button");
+            if (show_more_button) {
+                show_more_button.style.display = "block";
+            }
+        }
+
+    }
+    if (show_more_button) {
+        show_more_button.addEventListener("click", function (event) {
+            event.preventDefault();
+            show_more_button.style.display = "none";
+            selector.style.maxHeight = `unset`;
+        })
+    } 
+</script>
+{% endif %}
+{% schema %}
+{
+"name" : "Collection description",
+"settings": [
+
+],
+"presets": [
+{
+"name": "Collection description"
+}
+]
+}
+{% endschema %}

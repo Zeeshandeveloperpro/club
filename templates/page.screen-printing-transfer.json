@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_R3qdxG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_zBWN3t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Le transfert sérigraphique</h2><p>Le transfert sérigraphique consiste à imprimer une encre sérigraphique (Pantone) sur un support papier ou polyester, puis à appliquer ce visuel à chaud à l’aide d’une presse professionnelle.</p><p>Nous proposons ce procédé en version monochrome (une seule couleur) ou en version multicolore (plusieurs couleurs Pantone). Dans ce dernier cas, il n’est pas possible de dépasser cinq couleurs sur une même planche.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_fAXhzk": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Avantages du transfert sérigraphique</strong></h3><ul><li>Capacité de personnaliser divers types de tissus.</li><li>Offre un rendu de haute qualité avec un touché fin.</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "text_biF4fg": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Limites du transfert sérigraphique</strong></h3><p></p><ul><li>Il est difficile de produire des dégradés de couleurs : c’est une technique qui sert plutôt pour les aplats et des visuels vectoriels</li><li>Certaines finesses sont difficiles à obtenir à cause du procédé d’impression par cadres : des textes ou des visuels en dessous de 0,5 Pt (0,2 mm) ne seront pas lisibles</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "text_zeF466": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Quantité minimale de commande</strong></h3><p>La quantité minimale de commande est de <strong>15 pièces </strong>pour le transfert sérigraphique.<br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_zBWN3t",
+        "text_fAXhzk",
+        "text_biF4fg",
+        "text_zeF466"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_19_2025_05_43_15_PM.png",
+        "height": "medium",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "faq_PK6wm4": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_Tykg4m": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_QgALr8": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_YgV9dK": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_XWmiCU": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_knRQ6m": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_Tykg4m",
+        "z_faq_QgALr8",
+        "z_faq_YgV9dK",
+        "z_faq_XWmiCU",
+        "z_faq_knRQ6m"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fffbf4",
+        "z_heading_color": "#2d1f00",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "Voir plus",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_R3qdxG",
+    "faq_PK6wm4"
+  ]
+}

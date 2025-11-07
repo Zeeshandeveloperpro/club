@@ -1,0 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "collection_description_G489nL": {
+      "type": "collection-description",
+      "name": "Collection description",
+      "settings": {}
+    },
+    "faq_ijqg3p": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_PgrUi9": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_NdkJdC": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_xXefNU": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_xfQwFq": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_Hq64Ph": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_PgrUi9",
+        "z_faq_NdkJdC",
+        "z_faq_xXefNU",
+        "z_faq_xfQwFq",
+        "z_faq_Hq64Ph"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fefbf2",
+        "z_heading_color": "#000000",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "Voir plus",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collection_description_G489nL",
+    "faq_ijqg3p"
+  ]
+}

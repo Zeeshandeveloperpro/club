@@ -1,0 +1,179 @@
+
+
+<style>
+.hero-section {
+  /* text-align: center; */
+  /* padding: 100px 20px; */
+  position: relative;
+  background: white;
+  padding-top: 8rem;
+}
+
+.hero-heading {
+  font-size: 8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.hover-word-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-word {
+  position: relative;
+  z-index: 2;
+  text-decoration: underline dotted;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.cursor-ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dotted black;
+  background: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: pre-line; /* To support \n line breaks */
+  z-index: 2;
+}
+
+.cta-button {
+  background: black;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  /* margin-top: 40px; */
+      margin: 0px;
+    font-size: 16px;
+}
+
+@media (max-width:749px) {
+  .hero-heading {
+  font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    letter-spacing: 0;
+}
+.hero-section {
+  padding-top: 3rem;
+}
+}
+</style>
+
+<div class="hero-section">
+  <div class="page-width">
+  <h2 class="hero-heading">
+    {{ section.settings.heading_before }}
+    <span class="hover-word-wrapper">
+      <a href="{{ section.settings.url_hover_button |  default : "#" }}" class="hover-word">{{ section.settings.hover_word }}</a>
+      <span class="cursor-ball">{{ section.settings.learn_more_text }}</span>
+    </span>
+    {{ section.settings.heading_after }}
+    {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+    <a href="{{ section.settings.button_link }}" class="cta-button">
+      {{ section.settings.button_label }}
+    </a>
+  {% endif %}
+  </h2>
+
+  
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const wrapper = document.querySelector(".hover-word-wrapper");
+  const ball = wrapper.querySelector(".cursor-ball");
+
+  if (wrapper && ball) {
+    wrapper.addEventListener("mousemove", (e) => {
+      const rect = wrapper.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      ball.style.left = `${x}px`;
+      ball.style.top = `${y}px`;
+    });
+
+    wrapper.addEventListener("mouseenter", () => {
+      ball.style.display = "flex";
+    });
+
+    wrapper.addEventListener("mouseleave", () => {
+      ball.style.display = "none";
+    });
+  }
+});
+</script>
+{% schema %}
+{
+  "name": "Hero with Hover Circle",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_before",
+      "label": "Text before hover word",
+      "default": "We personalise the most beautiful and"
+    },
+    {
+      "type": "text",
+      "id": "hover_word",
+      "label": "Hover word",
+      "default": "sustainable"
+    },
+    {
+      "type": "text",
+      "id": "heading_after",
+      "label": "Text after hover word",
+      "default": "products for your brand to shine in real life."
+    },
+    {
+      "type": "text",
+      "id": "learn_more_text",
+      "label": "Circle text",
+      "default": "LEARN\nMORE"
+    },
+    {
+      "type": "url",
+      "label": "Url hover button",
+      "id": "url_hover_button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "CTA Button Label",
+      "default": "View all products"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "CTA Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero with Hover Circle",
+      "category": "Hero"
+    }
+  ]
+}
+{% endschema %}

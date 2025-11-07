@@ -1,0 +1,1082 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_product_pmGdPa": {
+      "type": "custom-product",
+      "blocks": {
+        "title_WakNx8": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_iRbi6A": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "custom_liquid_TDLMzt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n<div class=\"short_description\">\n{{ product.metafields.custom.short_description }}\n</div>\n{% endif %}"
+          }
+        },
+        "custom_liquid_ahfyrQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "variant_picker_cdKTRR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "globo_product_option_app_block_QNNbNd": {
+          "type": "shopify://apps/globo-product-options-variant/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+          "settings": {}
+        },
+        "custom_liquid_PJcQGj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "quantity_selector_jY8jqf": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "custom_liquid_kUTMUa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "upload_logo_4Ce9BQ": {
+          "type": "upload_logo",
+          "settings": {}
+        },
+        "custom_liquid_8NT9J7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"contact_block\">\n<span>\nVous n’avez aucun design ?\n</span>\n\n<a href=\"https://calendly.com/clublab\" class=\"button\">\nPrendre rendez-vous\n</a>\n</div>\n<style>\n.contact_block {\n    display: flex\n;\n    font-size: 14px;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1rem;\n    padding: 2rem;\n    background: #fefbf2;\n}\n</style>"
+          }
+        },
+        "buy_buttons_gYdire": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_mfRL8t": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"custom-contact-flex-wrapper\">\n  <p class=\"custom-contact-text\">\n    Vous avez des questions ? Contactez-nous dès maintenant :\n  </p>\n  <a href=\"https://club-lab.myshopify.com/pages/contact\" class=\"custom-contact-button\">\n    Contact\n  </a>\n</div>\n\n<style>\n  .custom-contact-flex-wrapper {\n    background-color: #fefbf2; /* Light beige */\n    padding: 2rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1rem;\n  }\n\n  .custom-contact-text {\n    font-size: 1.1rem;\n    color: #1e170d;\n    font-weight: 400;\n    margin: 0;\n  }\n\n  .custom-contact-button {\n    background-color: #281c00; /* Dark brown */\n    color: white;\n    font-weight: 600;\n    padding: 1rem 2rem;\n    text-decoration: none;\n    border: none; /* Removed white and yellow borders */\n    border-radius: 2px;\n    transition: all 0.3s ease;\n  }\n\n  .custom-contact-button:hover {\n    opacity: 0.9;\n  }\n\n  @media (max-width: 768px) {\n    .custom-contact-flex-wrapper {\n      flex-direction: column;\n      text-align: center;\n    }\n\n    .custom-contact-button {\n      width: 100%;\n      max-width: 200px;\n    }\n  }\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "title_WakNx8",
+        "judge_me_reviews_preview_badge_iRbi6A",
+        "custom_liquid_TDLMzt",
+        "custom_liquid_ahfyrQ",
+        "variant_picker_cdKTRR",
+        "globo_product_option_app_block_QNNbNd",
+        "custom_liquid_PJcQGj",
+        "quantity_selector_jY8jqf",
+        "custom_liquid_kUTMUa",
+        "upload_logo_4Ce9BQ",
+        "custom_liquid_8NT9J7",
+        "buy_buttons_gYdire",
+        "custom_liquid_mfRL8t"
+      ],
+      "name": "Custom product",
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_k9XEjU": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VcQVAB": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VcQVAB"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_53_01_Header_MM01_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_6xVqyf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kRMT7q": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "The handy, passport-sized option for quick note-taking out and about. Because when you’re on the move, your thoughts are too. Perfect when combined with the DS6 S Mini.",
+            "heading_size": "h1"
+          }
+        },
+        "text_CQP6w3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Softcover notebook in a handy passport size. Rounded corners, blank white pages. Non-bleed, FSC®-certified, chlorine- and acid-free paper with excellent properties for writing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kRMT7q",
+        "text_CQP6w3"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_v2_7VUFii": {
+      "type": "multicolumn-v2",
+      "blocks": {
+        "column_8FkVpg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Size_4.svg",
+            "title": "Size",
+            "text": "<p>Passport size 90 x 140 mm(3,5” x 5,5”)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zmV3Yd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_84.png",
+            "title": "Number of pages",
+            "text": "<p>72<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FgkcP3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_86.png",
+            "title": "Soft cover / Paper-block",
+            "text": "<p>250g/m2 /90g/m2<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nzRbJm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Binding_6.svg",
+            "title": "Binding",
+            "text": "<p>Singer-sewn binding</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8FkVpg",
+        "column_zmV3Yd",
+        "column_FgkcP3",
+        "column_nzRbJm"
+      ],
+      "name": "multicolumn-v2",
+      "settings": {
+        "title": "Details",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "custom_liquid_RwJFBT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n<div class=\"short_description\">\n{{ product.metafields.custom.short_description }}\n</div>\n{% endif %}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "custom_liquid_RwJFBT",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "icon_with_text_xX9aPb": {
+      "type": "icon-with-text",
+      "blocks": {
+        "trustpilot_4w4pdq": {
+          "type": "trustpilot",
+          "disabled": true,
+          "settings": {
+            "trustpilot_brand": "Trustpilot",
+            "rating": 5,
+            "score": "4.8",
+            "review_count": "351"
+          }
+        },
+        "delivery_64TcWY": {
+          "type": "delivery",
+          "settings": {
+            "title": "Livraison mondiale",
+            "subtitle": "EU, UK et USA"
+          }
+        },
+        "quality_CgfmYi": {
+          "type": "quality",
+          "settings": {
+            "title": "Contrôle de qualité",
+            "subtitle": "Chaque commande est vérifiée deux fois avant la production"
+          }
+        },
+        "trust_kp74af": {
+          "type": "trust",
+          "settings": {
+            "title": "Ils nous font confiance !",
+            "subtitle": "Plus de 2 000 clients nous font confiance"
+          }
+        }
+      },
+      "block_order": [
+        "trustpilot_4w4pdq",
+        "delivery_64TcWY",
+        "quality_CgfmYi",
+        "trust_kp74af"
+      ],
+      "disabled": true,
+      "name": "icon with text",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "badge_background": "#fefbf2",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20,
+        "container_width": 1200,
+        "min_badge_width": 280,
+        "gap": 20,
+        "border_radius": 12,
+        "shadow": "",
+        "border_width": 0,
+        "border_color": "#e0e0e0"
+      }
+    },
+    "product_tabs_yc6RxW": {
+      "type": "product-tabs",
+      "blocks": {
+        "text_BqUfDG": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Description",
+            "z_rich_text": "{{ product.description }}"
+          }
+        },
+        "text_QkHTry": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Specifications",
+            "z_rich_text": "{{ product.metafields.custom.specifications | metafield_tag }}"
+          }
+        },
+        "text_93GgcQ": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Customization",
+            "z_rich_text": "{{ product.metafields.custom.customization | metafield_tag }}"
+          }
+        },
+        "text_Hbfa69": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Production",
+            "z_rich_text": "{{ product.metafields.custom.production | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_BqUfDG",
+        "text_QkHTry",
+        "text_93GgcQ",
+        "text_Hbfa69"
+      ],
+      "disabled": true,
+      "name": "Product tabs",
+      "settings": {
+        "z_upsell_heading": ""
+      }
+    },
+    "1757077011605ee6a0": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_jGMWrL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_jGMWrL"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_AxqbwW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jKPU4g": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_NXzz3L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Premium A5 softcover notebook with a high-quality look and feel. Non-bleed, FSC®-certified, chlorine- and acid-free paper with excellent properties for writing.<br/><br/>Cover with inside flaps available in eight hand-picked natural Fedrigoni Materica colours, white pages, subtle dotting. Front page with name line. Sustainability information on the last page on the inside. Can be supplied in both neutral and branded versions from upwards of 250 units. Made in Portugal.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jKPU4g",
+        "text_NXzz3L"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "faq_7PnXcT": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_Fixxfm": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_XLn3Nf": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_QqGcEq": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_KUpNyX": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_zkq9Y3": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_Fixxfm",
+        "z_faq_XLn3Nf",
+        "z_faq_QqGcEq",
+        "z_faq_KUpNyX",
+        "z_faq_zkq9Y3"
+      ],
+      "disabled": true,
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fefbf2",
+        "z_heading_color": "#000000",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "View More",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    },
+    "custom_banner_PdDyLH": {
+      "type": "custom_banner",
+      "disabled": true,
+      "name": "Custom Banner",
+      "settings": {
+        "background_image": "shopify://shop_images/canvas.png",
+        "heading": "MM01 Small Elegant, compact and small enough to fit in your bag.",
+        "button_link": "",
+        "button_text": "Know more",
+        "desktop_height": 600,
+        "mobile_height": 400
+      }
+    },
+    "image_banner_UeDCii": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HnWgVe": {
+          "type": "heading",
+          "settings": {
+            "heading": "MM01 Small",
+            "heading_size": "h1"
+          }
+        },
+        "text_ggzacB": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Elegant, compact and small enough to fit in your bag.</strong>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HnWgVe",
+        "text_ggzacB"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/canvas.png",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_v2_KHWz6J": {
+      "type": "multicolumn-v2",
+      "blocks": {
+        "column_A9Fq3d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-18_at_17-30-31_MM01_Small_notebook_-_Technical_specifications_-_Prodir.png",
+            "title": "Paper",
+            "text": "<p>Arena Smooth Natural, 90 g/m2</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_36eVHk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-18_at_17-32-44_MM01_Small_notebook_-_Technical_specifications_-_Prodir.png",
+            "title": "Layout",
+            "text": "<p>Blank</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_A9Fq3d",
+        "column_36eVHk"
+      ],
+      "name": "multicolumn-v2",
+      "settings": {
+        "title": "Paper and lines.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_v2_tWDwgV": {
+      "type": "multicolumn-v2",
+      "blocks": {
+        "column_4FreDw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Ardesia-Black_color_0.jpg",
+            "title": "90-Ardesia",
+            "text": "<p>Fedrigoni Materica 250 g/m2</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Q6kfEx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Clay-Grey_0.jpg",
+            "title": "10-Clay",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7YCaaJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Kraft-Brown_0.jpg",
+            "title": "20-Kraft",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TLkRVi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Cobalt-Blue_color_0.jpg",
+            "title": "70-Cobalt",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KbHcxJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Acqua-Light-Blue_0.jpg",
+            "title": "60-Acqua",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9xXB8n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Verdigris-Green_0.jpg",
+            "title": "80-Verdigris",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_himdbx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Terra-Rossa-Red.jpg",
+            "title": "40-Terra Rossa",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fwFH7Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MM01_Terra-Gialla-Yellow_0.jpg",
+            "title": "30-Terra Gialla",
+            "text": "<p>Fedrigoni Materica 250 g/m²<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4FreDw",
+        "column_Q6kfEx",
+        "column_7YCaaJ",
+        "column_TLkRVi",
+        "column_KbHcxJ",
+        "column_9xXB8n",
+        "column_himdbx",
+        "column_fwFH7Y"
+      ],
+      "name": "multicolumn-v2",
+      "settings": {
+        "title": "Cover: colours and finishes.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_kqFWzw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JrCMTH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Branding.",
+            "heading_size": "h1"
+          }
+        },
+        "text_nkMgnU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A logo or company name can be applied unobtrusively on the front or back cover using high-quality embossing or debossing print.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JrCMTH",
+        "text_nkMgnU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_v2_AxzNdR": {
+      "type": "multicolumn-v2",
+      "blocks": {
+        "column_axJpP3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_55_Ardesia_Blind.jpg",
+            "title": "Embossing Blind",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_P7xDJ7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_56_Ardesia_White.jpg",
+            "title": "Colour debossing White",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UkEVTG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_57_Ardesia_Black.jpg",
+            "title": "Colour debossing Black",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BGXVNV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_58_Ardesia_Gold.jpg",
+            "title": "Colour debossing Gold",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FPkmiR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_59_Ardesia_Silver.jpg",
+            "title": "Colour debossing Silver",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VJXpjz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_60_Ardesia_Copper.jpg",
+            "title": "Colour debossing Copper",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_axJpP3",
+        "column_P7xDJ7",
+        "column_UkEVTG",
+        "column_BGXVNV",
+        "column_FPkmiR",
+        "column_VJXpjz"
+      ],
+      "name": "multicolumn-v2",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_eydMyr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xbRQpX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalization.",
+            "heading_size": "h1"
+          }
+        },
+        "text_aHjHLj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Front cover, top left, or back cover, bottom left</p><p><strong>Print area (A or B)</strong><br/>70 × 120 mm (2,75” x 4,72”)</p><p><strong>Margin</strong><br/>10 × 10 mm (0,40” x 0,40”)</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xbRQpX",
+        "text_aHjHLj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/06_MM01_Print_areas_0.svg",
+        "height": "adapt",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4fieUi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9JaT9H": {
+          "type": "heading",
+          "settings": {
+            "heading": "QR code: connect in the cloud.",
+            "heading_size": "h1"
+          }
+        },
+        "text_GLFtMJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Our free Cloud Services make linking your brand ambassador to your digital brand worlds child’s play. A QR code on the back cover takes users straight to a landing page designed by you: you decide its content and features.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9JaT9H",
+        "text_GLFtMJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_tgPCAH": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_dVjUBH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Total print area (B1)</strong><br/>50 × 50 mm (1,97” x 1,97”)<br/>For QR code</p><p><strong>Fixed size of QR code</strong><br/>12 × 12 mm (0,47” x 0,47”)</p><p><strong>Margin</strong><br/>10 × 10 mm (0,40” x 0,40”)</p><p><strong>Print</strong><br/>Offset Pantone<br/>Ardesia or Cobalt cover: printing in Silver<br/>All others: printing in Black</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_dVjUBH"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/07_MM01_QRcode_0.svg",
+        "height": "adapt",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dkwWPh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NTnJ8i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Certification",
+            "heading_size": "h1"
+          }
+        },
+        "text_XCdV9L": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>This notebook has been designed by mishmash, an up-and-coming brand from Portugal ewploring every nook and cranny of the paper world. All notebooks are produced locally in Porto.</strong></p><p>The smooth surface of the FSC® certified uncoated paper made with chlorine-free pulp is optimized for effortlessly gliding writing movements. The pulp coloured cover consists of 40% CTMP fibres, 25% pure environmentally friendly fibres, 20% recycled material and 15% cotton fibres.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NTnJ8i",
+        "text_XCdV9L"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_WbEKYP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QxnLLk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/imgi_61_certification.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QxnLLk"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "custom_product_pmGdPa",
+    "image_banner_k9XEjU",
+    "rich_text_6xVqyf",
+    "multicolumn_v2_7VUFii",
+    "main",
+    "icon_with_text_xX9aPb",
+    "product_tabs_yc6RxW",
+    "1757077011605ee6a0",
+    "rich_text_AxqbwW",
+    "related-products",
+    "faq_7PnXcT",
+    "custom_banner_PdDyLH",
+    "image_banner_UeDCii",
+    "multicolumn_v2_KHWz6J",
+    "multicolumn_v2_tWDwgV",
+    "rich_text_kqFWzw",
+    "multicolumn_v2_AxzNdR",
+    "image_with_text_eydMyr",
+    "rich_text_4fieUi",
+    "image_with_text_tgPCAH",
+    "rich_text_dkwWPh",
+    "multicolumn_WbEKYP"
+  ]
+}

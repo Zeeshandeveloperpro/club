@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_R3qdxG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_zBWN3t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>La sérigraphie</h2><p>La sérigraphie directe est un procédé artisanal qui demeure être l’une des plus anciennes techniques d<strong>’impression textile</strong>. Ce procédé est « un classique » dans le monde de l’impression textile.<br/>Côté technique, cela consiste à utiliser des écrans de sérigraphie qui fonctionnent comme des pochoirs pour faire passer l’encre sur le textile à marquer. L’encre se diffuse sur le textile grâce à une maille tendue. Cela permet une impression couleur par couleur sur les vêtements.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "text_fAXhzk": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Avantages de la sérigraphie</strong></h3><ul><li>C’est un produit durable dans le temps</li><li>Grâce à son dépôt d’encre, l’aspect final est de grande qualité. Les couleurs gardent leur éclat du premier jour</li><li>Un rendu couleur precis, grace à l'utilisation du nuancier <strong>Pantone Solid Coated</strong></li><li>Possibilité d'encre spéciale pour des rendus uniques (Encre gonflante, luminescente, glitter, etc.)</li><li>Meilleur rapport qualité prix</li><li>Capacité de production importante (5000 pièces / jour)</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "text_biF4fg": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Limites de la sérigraphie</strong></h3><ul><li>La quantité minimale évolue en fonction du nombre de couleurs</li><li>Le niveau de détails est limité</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "text_zeF466": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Quantité minimale de commande</strong></h3><p>La quantité minimale de commande est de 25<strong> pièces </strong>pour la sérigraphie couleur et <strong>100 pièces </strong>pour des visuels de plus de 4 couleurs.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_zBWN3t",
+        "text_fAXhzk",
+        "text_biF4fg",
+        "text_zeF466"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/VERTICALE_Plan_de_travail_1_copie_6.jpg",
+        "height": "small",
+        "full_width": false,
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_YgMfiC": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_FFiEjn": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_7TXdFC": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_U6ereU": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_rMAngL": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_4racUH": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_FFiEjn",
+        "z_faq_7TXdFC",
+        "z_faq_U6ereU",
+        "z_faq_rMAngL",
+        "z_faq_4racUH"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fffbf4",
+        "z_heading_color": "#2d1f00",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "View More",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_R3qdxG",
+    "faq_YgMfiC"
+  ]
+}

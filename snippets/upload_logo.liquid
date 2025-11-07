@@ -1,0 +1,581 @@
+{% if product.metafields.custom.upload_back_logo_design or product.metafields.custom.upload_front_logo_design %}
+<style>
+    .club-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-bottom: 40px; */
+    }
+#club-backInput {
+    display: none;
+}
+.span_checkmark {
+    display: none;
+    width: 100%;
+    background: #212721;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    margin:1px;
+}
+.upload_logo__function .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.club-header-right input[type="checkbox"]:checked + .span_checkmark{
+  display: block;
+}
+    .club-upload-section .club-section-header input[type="checkbox"]:checked + .span_checkmark{
+  display: block;
+}
+
+    .club-header-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .club-step-number {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #333;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 18px;
+        color: #333;
+        background: white;
+    }
+
+    .club-header-title {
+        font-size: 36px;
+        font-weight: 400;
+        color: #333;
+    }
+
+    .club-help-button {
+        width: 28px;
+        height: 28px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 16px;
+        color: #666;
+        transition: all 0.2s ease;
+    }
+
+    .club-help-button:hover {
+        background: #f0f0f0;
+        border-color: #999;
+    }
+
+    .club-header-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .club-checkbox {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #333;
+        background: white;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .club-checkbox:hover {
+        background: #f0f0f0;
+    }
+
+    .club-checkbox.checked {
+        background: #333;
+        position: relative;
+    }
+
+    .club-checkbox.checked::after {
+        content: '✓';
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .club-no-design-text {
+        font-size: 16px;
+        color: #333;
+        font-weight: 400;
+    }
+
+    .club-upload-section {
+           background: #e8e8e8;
+    border-radius: 12px;
+    /* padding: 30px; */
+    margin-bottom: 20px;
+    padding: 16px 18px;
+    padding: 18px 20px;
+    background: #fefbf2;
+    margin-top: 2rem;
+    border-radius: 6px;
+    margin-top: 25px;
+    }
+
+    .club-section-header {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    .club-section-icon {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #333;
+        background: white;
+    }
+
+    .club-section-title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .club-upload-area {
+       background: white;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 60px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 14px 16px;
+    display: flex
+;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+    }
+
+    .club-upload-area:hover {
+        border-color: #999;
+        background: #f9f9f9;
+    }
+
+    .club-upload-area.dragover {
+        border-color: #007bff;
+        background: #f0f8ff;
+    }
+
+    .club-upload-icon {
+        width: 24px;
+        height: 24px;
+        /* margin: 0 auto 15px; */
+        opacity: 0.7;
+    }
+
+    .club-upload-text {
+        font-size: 18px;
+        color: #333;
+        font-weight: 400;
+    }
+
+    .club-file-types {
+        font-size: 16px;
+        color: #666;
+        margin-top: 5px;
+    }
+
+    .club-file-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .show_file_upload {
+            display: flex
+;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    }
+
+    .club-uploaded-file {
+   
+
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+        display: none;
+    }
+
+    .club-file-info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .club-file-icon {
+        width: 40px;
+        height: 40px;
+        background: #f0f0f0;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .club-file-details h4 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 4px;
+        margin: 0;
+    }
+
+    .club-file-details p {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .club-remove-file {
+        background: none;
+        border: none;
+        color: #999;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 0px;
+        transition: color 0.2s ease;
+    }
+
+    .club-remove-file:hover {
+        color: #666;
+    }
+
+    @media (max-width: 768px) {
+        .club-header {
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .club-header-title {
+            font-size: 28px;
+        }
+
+        .club-upload-area {
+            padding: 40px 20px;
+        }
+
+        .club-upload-text {
+            font-size: 16px;
+        }
+    }
+</style>
+{%  assign counter = counter |  plus: 1 %}
+                   
+<div class="upload_logo__function">
+<div class="container">
+    <div class="club-header">
+        <div class="club-header-left">
+            <div class="steps_heading_numbers">
+                {{ counter }}
+            </div>
+            <div class="steps_heading_text">
+                Ajoutez vos créations
+
+            </div>
+        </div>
+    </div>
+    <div class="club-header-right">
+        <label class="club-checkbox" id="club-noDesignCheckbox">
+            <input type="checkbox"  name="checkbox" for="club-noDesignCheckbox" style="display: none;" />
+            <span class="span_checkmark"> </span>
+        </label>
+        <span class="club-no-design-text">Je n'ai pas encore mon design</span>
+    </div>
+</div>
+
+<div class="club-upload-section">
+    <div class="club-section-header">
+        <div class="club-section-icon"></div>
+         <input type="checkbox"  id="upload_front" class="club-checkbox"  style="display:none" />  
+        <label class="wrapper___upper" for="upload_front" >
+       
+        <div class=" club-checkbox">
+            <span class="span_checkmark"> </span>
+        </div>
+         
+        devant
+        </label>
+    </div>
+<label class="club-upload-area" {% comment %} id="club-frontUpload" {% endcomment %} id="club-frontInput">
+        <input type="file" class="club-file-input" onchange="upload_logo(this , 'front')" accept=".jpg,.jpeg,.png,.svg" for="club-frontInput" style="display: none;">
+        <div class="show_file_upload">
+        <svg class="club-upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7,10 12,15 17,10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <div class="club-upload-text">Téléchargez votre logo (jpeg/png/svg)</div>
+        </div>
+        <div class="club-uploaded-file" id="club-frontFile">
+        <div class="club-file-info">
+          
+            <div class="club-file-details">
+                <h4 id="club-frontFileName">logo.png</h4>
+                
+            </div>
+        </div>
+        <button class="club-remove-file" data-side="front" onclick="removeFile(this)">×</button>
+    </div>
+    </label>
+    <button class="printing_button">
+            Impression
+        </button>
+</div>
+{% if product.metafields.custom.upload_back_logo_design %}
+<div class="club-upload-section">
+    <div class="club-section-header">
+     
+    
+         <input type="checkbox"  id="back_front" class="club-checkbox"   style="display:none" />  
+        <label class="wrapper___upper" for="back_front" >
+       
+        <div class=" club-checkbox">
+            <span class="span_checkmark"> </span>
+        </div>
+         
+        Dos</label>
+   
+    </div>
+    <label class="club-upload-area" for="club-backInput" id="club-backUpload">
+        <input type="file" class="club-file-input" accept=".jpg,.jpeg,.png,.svg" onchange="upload_logo(this , 'back')" id="club-backInput">
+       <div class="show_file_upload">
+        <svg class="club-upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7,10 12,15 17,10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <div class="club-upload-text">Téléchargez votre logo (jpeg/png/svg)</div>
+        </div>
+         <div class="club-uploaded-file" id="club-backFile">
+        <div class="club-file-info">
+
+            <div class="club-file-details">
+                <h4 id="club-backFileName">logo-back.png</h4>
+
+            </div>
+        </div>
+        <button class="club-remove-file" data-side="back" onclick="removeFile(this)">×</button>
+    </div>
+        </label>
+        <button class="printing_button">
+            Impression
+        </button>
+        
+    </div>
+   {%  endif %}
+</div>
+
+
+<script>
+(function() {
+    const noDesignCheckbox = document.getElementById('club-noDesignCheckbox');
+    const frontUpload = document.getElementById("upload_front");
+    const frontfile = document.getElementById("club-frontInput");
+    const back_front = document.getElementById("back_front");
+    const backfile = document.querySelector("#club-backUpload");
+
+    function toggleFrontFile() {
+        const noDesignChecked = noDesignCheckbox.querySelector("input").checked;
+
+        console.log("no", noDesignChecked, "cg", back_front?.checked);
+
+        if (!noDesignChecked && frontUpload.checked) {
+            console.log("checked");
+            frontfile.style.display = "flex";
+                const nextElement = frontfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "none"; 
+            }
+        } else if(noDesignChecked && frontUpload.checked){
+            frontfile.style.display = "none";
+            const nextElement = frontfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "flex";
+            }
+        }
+        else if(!noDesignChecked &&  !frontUpload.checked) {
+            frontfile.style.display = "none";
+            const nextElement = frontfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "none";
+            }
+        }
+        else if(!frontUpload.checked) {
+              frontfile.style.display = "none";
+            const nextElement = frontfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "none";
+            }
+        }
+        
+
+        if (back_front) {
+            if (!noDesignChecked && back_front.checked) { 
+                console.log("checked");
+                backfile.style.display = "flex";
+                 const nextElement = backfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "none";
+            }
+            } else if(noDesignChecked && back_front.checked){
+                backfile.style.display = "none";
+                 const nextElement = backfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "flex";
+            }
+            
+                
+            }
+             else if( !back_front.checked) {
+            backfile.style.display = "none";
+            const nextElement = backfile.nextElementSibling;
+            if(nextElement) {
+                nextElement.style.display = "none";
+            }
+        }
+        
+        }
+    }
+
+    noDesignCheckbox.addEventListener('change', toggleFrontFile);
+    frontUpload.addEventListener('change', toggleFrontFile);
+
+    if (back_front) {
+        back_front.addEventListener('change', toggleFrontFile); // fixed from frontUpload duplicate
+    }
+
+    // Run once on load
+    toggleFrontFile();
+})();
+
+
+
+
+    function upload_logo(el , side) {
+    let file = el.files[0];
+        if(file) {
+            console.log(file.name);
+            el.closest(".club-upload-section").querySelector(".show_file_upload").style.display = "none";
+            let hide = el.closest(".club-upload-section").querySelector(".club-uploaded-file");
+            if(hide) {
+hide.style.display = "flex"; 
+hide.querySelector(".club-file-details h4").textContent = `${file.name}`;
+let url = URL.createObjectURL(file)
+ let image_upload = document.querySelector(".image_design_upload");
+ if(image_upload) {
+      let variants_varify = document.querySelector(".variants_varify");
+    
+      if (variants_varify) {
+          let image_upload_logo_design = image_upload.querySelectorAll(".image_upload_logo_design");
+        let selected = variants_varify.options[variants_varify.selectedIndex];
+        let selectedId = selected.dataset.id
+
+            if(image_upload_logo_design.length > 0) {
+                image_upload_logo_design.forEach((div) => div.style.display = "none");
+                image_upload_logo_design.forEach((logo_item) => {
+                    let logo_image = logo_item.querySelector(`.${side} .uploaded_logo_image`);
+                    if(logo_image) {
+                        logo_image.setAttribute("src" , url);
+                        logo_image.style.display = "block";
+                        logo_item.querySelector(`.${side} .resizable`).style.display = "block";
+                    }
+                    console.log(Number(logo_item.dataset.id))
+                    if(Number(selectedId) === Number(logo_item.dataset.id)) {
+                        console.log("logo_item" , logo_item)
+                        logo_item.style.display = "block";
+                       logo_item.querySelectorAll(".first_image_print").forEach(item => item.style.display = "none");
+                         let side_image = logo_item.querySelector(`.thumbnail_customize_logo .${side}`);
+                         if(side_image) side_image.click();
+                        image_upload.style.display = "block";
+                        console.log("image_upload" , image_upload)
+                        let custom_image_gallery = document.querySelector(".custom_image_gallery .swiper").style.display = "none";
+
+                    }
+                })
+            }
+        console.log("myConsole" ,  selected.dataset.id)
+}
+ }
+            }
+        }
+    }
+
+
+    function removeFile(side) {
+    let parentWrapper = side.closest(".club-uploaded-file");
+    if (parentWrapper) {
+        parentWrapper.style.display = "none";
+    }
+
+    let wrapper = side.closest(".club-upload-area");
+    if (wrapper) {
+        let input = wrapper.querySelector("input");
+        if (input) input.value = '';
+        let showFileUpload = wrapper.querySelector(".show_file_upload");
+        if (showFileUpload) showFileUpload.style.display = "flex";
+    }
+
+    const back_front = document.getElementById("club-backInput");
+    const frontfile = document.getElementById("club-frontInput");
+
+    const backValue = back_front?.files?.length || 0;
+    const frontValue = frontfile?.querySelector("input")?.files?.length || 0;
+
+    if (backValue === 0 && frontValue === 0) {
+        let image_design_upload = document.querySelector(".image_design_upload");
+        if (image_design_upload) {
+            image_design_upload.style.display = "none";
+        }
+        let swiper45 = document.querySelector(".custom_image_gallery .swiper");
+        if (swiper45) swiper45.style.display = "block";
+    }
+    else {
+        console.log(side.dataset.side)
+        let targetClass = ".first_image_print." + `${side.dataset.side}` 
+        console.log("targetClass" , targetClass)
+        document.querySelectorAll(`${targetClass}`).forEach( (logo) => {
+                logo.querySelector(".resizable img").setAttribute("src" , "")       
+        })
+        console.log("not empty" , "1" , back_front?.files?.length , "2" ,  frontfile?.querySelector("input")?.value)
+    }
+}
+
+
+   
+
+</script>
+
+{% endif %}

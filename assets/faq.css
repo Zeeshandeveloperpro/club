@@ -1,0 +1,135 @@
+.z_faq {
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
+.z_faq_heading {
+  max-width: 546px;
+  text-align: left;
+}
+.z_faq_heading_inner {
+  /* text-align:center; */
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.z_faq_inner {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.z_heading {
+  display: inline-block;
+  margin: 0;
+}
+
+.z_faq_section_inner {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.z_faq_section {
+  max-width: 667px;
+    width: 100%;
+}
+.faq_items:first-child {
+  border-top: 1px solid #000;
+}
+.faq_items {
+  border-bottom: 1px solid #000;
+}
+.z_faq_ques_acordian {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  display: block !important;
+}
+.z_minus_accordian {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  display: block !important;
+  transition: 0.4s;
+}
+.z_plus_accordian {
+  content: "";
+  width: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  height: 100%;
+  background-color: #000;
+  display: block !important;
+  transition: 0.4s;
+}
+.z_after_line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  display: block !important;
+}
+.z_faq_ques {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px 24px;
+  font-family: var(--font-body-family);
+  padding-inline: 0;
+}
+.z_faq_ques h2 {
+  width: calc(100% - 20px);
+  padding-right: 20px;
+  /* color: #fff; */
+  font-size: 16px;
+  margin: 0px;
+  font-family: var(--font-body-family);
+}
+.z_faq_begin_ans {
+ 
+  display: none;
+  padding-bottom: 16px;
+    max-width: 55rem;
+}
+.z_faq_ans p {
+     font-size: 16px;
+    /* color: #fff; */
+    /* padding-left: 4px; */
+    margin: 0;
+    line-height: 1.5;
+}
+.z_faq_ques_acordian-before {
+  transform: translateY(-50%) rotate(180deg);
+  transition: 0.4s;
+}
+.z_faq_ques_acordian-after {
+  transform: translateX(-50%) rotate(90deg);
+  transition: 0.4s;
+}
+@media (max-width: 999px) {
+  .z_faq_ques h2 {
+    font-size: 16px;
+  }
+  .z_faq_ques_acordian {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 750px) {
+  .z_faq_inner {
+    padding: 30px 20px;
+  }
+  .z_heading {
+    /* font-size: 22px; */
+  }
+
+ 
+  .z_faq_ques {
+    padding: 20px 0;
+  }
+  
+}

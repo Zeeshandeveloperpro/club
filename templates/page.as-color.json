@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_9Q7KrT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ehn8jw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Carnets personnalisés.",
+            "heading_size": "h2"
+          }
+        },
+        "heading_3jdwWg": {
+          "type": "heading",
+          "settings": {
+            "heading": "AS COLOUR",
+            "heading_size": "hxxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ehn8jw",
+        "heading_3jdwWg"
+      ],
+      "custom_css": [
+        ".rich-text__blocks * {overflow-wrap: break-word; /* line-height: 1; */ margin: 0 !important;}",
+        "h2:first-child {color: #858585;}",
+        ".page-width {max-width: var(--page-width);}",
+        ".rich-text__wrapper {width: 100%;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_dkM6GT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HBhWBn": {
+          "type": "heading",
+          "settings": {
+            "heading": "TWENTY YEARS MADE BETTER",
+            "heading_size": "h2"
+          }
+        },
+        "text_rrJrQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>For two decades our mission has been simple: to provide premium blank apparel for the artists, decorators and creators of today - blank canvases for self-expression.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HBhWBn",
+        "text_rrJrQ3"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_v2_4VUzba": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_BHPNRm": {
+          "type": "heading",
+          "settings": {
+            "heading": "EST. 2005",
+            "heading_size": "h2"
+          }
+        },
+        "heading_WNjyg8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Created in New Zealand",
+            "heading_size": "h2"
+          }
+        },
+        "text_mVQyzP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>AS Colour was founded with a vision to raise the standard of wholesale blank apparel. We pride ourselves on producing high-quality, functional blank apparel that stands the test of time. Established in 2005 in Auckland, New Zealand. AS Colour has grown from humble beginnings to now operate twenty-six retail locations and six distribution facilities across Europe, United States, United Kingdom, Australia and New Zealand. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_8DB7pk": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Entrer en contact",
+            "button_link": "mailto:info@clublab.com",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_BHPNRm",
+        "heading_WNjyg8",
+        "text_mVQyzP",
+        "button_8DB7pk"
+      ],
+      "custom_css": [
+        ".button {color: black; border: 1px solid;}"
+      ],
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/AS_EMBLEM_LOGO_BLACK.jpg",
+        "height": "adapt",
+        "full_width": true,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_v2_i3f4FA": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_DVfccM": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE PRODUCTS",
+            "heading_size": "h2"
+          }
+        },
+        "heading_7JgGGg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Built to Last",
+            "heading_size": "h2"
+          }
+        },
+        "text_LKLUza": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Clublab, nous sommes convaincus que des produits qui durent plus longtemps sont meilleurs pour l’environnement. En concevant des vêtements de qualité exceptionnelle, pensés pour résister au temps, nous contribuons à réduire le gaspillage et à encourager une consommation plus responsable.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qVF8gX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Apprendre encore plus",
+            "button_link": "shopify://collections/carnets",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DVfccM",
+        "heading_7JgGGg",
+        "text_LKLUza",
+        "button_qVF8gX"
+      ],
+      "custom_css": [
+        ".button {color: black; border: 1px solid;}"
+      ],
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/BOX_TEE_D3_9.jpg",
+        "height": "adapt",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_3A6Lk8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8zge3A": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Design Philosophy",
+            "heading_size": "h2"
+          }
+        },
+        "text_jf7Htp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Au cœur de l’approche d’<strong>AS Colour </strong>se trouve un engagement fort pour une qualité sans compromis, construit autour de trois principes essentiels : <strong>la coupe, la matière et la finition</strong>. Ces piliers guident l’ensemble du processus de création et de fabrication, afin de garantir que chaque produit atteigne les plus hauts standards.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8zge3A",
+        "text_jf7Htp"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    },
+    "mishmash_logo_mfJ9q6": {
+      "type": "mishmash-logo",
+      "blocks": {
+        "partner_eiBFbT": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "FREEPIK",
+            "z_partner_logo": "shopify://shop_images/images-2_0230230d-f989-4b52-af7d-6fad1e797475.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_eTDkkz": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "readymag",
+            "z_partner_logo": "shopify://shop_images/CASA-MAZITA-Valise-Logo-VECTO-10_419d5067-1073-4f85-8532-5e25ac605d1b.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_tbazEM": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "GUGGENHEIM",
+            "z_partner_logo": "shopify://shop_images/LOGO_PRINCIPAL_JAUNE_c2f76256-c254-474a-9ab0-3b086d131c9e.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_rTjdcE": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "SALSA JEANS",
+            "z_partner_logo": "shopify://shop_images/LOGO-AERIA-declinaison-768x543_a3f548b5-4e62-4d09-9344-dcdbc9dbee9f.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_KWL3xG": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Retool",
+            "z_partner_logo": "shopify://shop_images/Logo_AuxArtiste_2_1efbd163-5b59-4528-b6cb-e934f56512ef.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_gqMhXL": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "ACCENT",
+            "z_partner_logo": "shopify://shop_images/Capture_d_ecran_2025-02-25_a_14.02.41.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_crR6qH": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Logo_GoodLife_Rose_200x200-1-1_png_50185aae-1b03-4c44-95d2-5157ab3c2e6e.webp",
+            "z_partner_url": ""
+          }
+        },
+        "partner_9izTff": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Capture_d_ecran_2024-12-08_a_10.38.19_0140576a-d964-4eac-91a0-a531f8d2e389.png",
+            "z_partner_url": ""
+          }
+        },
+        "partner_8rm73H": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/LOreal-Logo-1962-present_b02b7f47-e3a3-4944-a06f-c1c25ef2efc3.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_dJNkMF": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/IMG_6268_3_6ce92699-4384-4c40-8b63-ed91df89da36.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_MnNDJx": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/bureaubarbara_logo.jpg",
+            "z_partner_url": ""
+          }
+        },
+        "partner_AApezA": {
+          "type": "partner",
+          "settings": {
+            "z_partner_name": "Partner Name",
+            "z_partner_logo": "shopify://shop_images/Logo_NU_ec583aef-37d9-47e2-97b6-c5816cdfa5b7.svg",
+            "z_partner_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_eiBFbT",
+        "partner_eTDkkz",
+        "partner_tbazEM",
+        "partner_rTjdcE",
+        "partner_KWL3xG",
+        "partner_gqMhXL",
+        "partner_crR6qH",
+        "partner_9izTff",
+        "partner_8rm73H",
+        "partner_dJNkMF",
+        "partner_MnNDJx",
+        "partner_AApezA"
+      ],
+      "disabled": true,
+      "name": "Partners & Logos",
+      "settings": {
+        "z_show_header": true,
+        "z_title": "Happy and trusted partners.",
+        "z_subtitle": "Trusted by leading companies around the world",
+        "z_layout": "1",
+        "z_bg_color": "#ffffff",
+        "z_text_color": "#1a1a1a",
+        "z_card_bg_color": "#ffffff",
+        "z_card_border_color": "#e5e7eb",
+        "z_padding_top": 40,
+        "z_padding_bottom": 40
+      }
+    },
+    "image_with_text_v2_Qe3cWC": {
+      "type": "image-with-text-v2",
+      "blocks": {
+        "heading_bXV3Nx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trouvez votre stylo, racontez votre histoire.",
+            "heading_size": "h2"
+          }
+        },
+        "text_WBjnmX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Couleurs, surfaces et matériaux font d’un stylo un ambassadeur de marque.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_4a7ADz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Créez le vôtre",
+            "button_link": "shopify://collections/casquettes",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_bXV3Nx",
+        "text_WBjnmX",
+        "button_4a7ADz"
+      ],
+      "disabled": true,
+      "name": "image-with-text-v2",
+      "settings": {
+        "image": "shopify://shop_images/download_7d640d07-186c-404e-8f42-4c4adf2ca7c3.webp",
+        "height": "small",
+        "full_width": false,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_McmtdL": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Surf hat by as color",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/SURF_CAP_STOP_MOTION_NO AUDIO copy.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_9Q7KrT",
+    "rich_text_dkM6GT",
+    "image_with_text_v2_4VUzba",
+    "image_with_text_v2_i3f4FA",
+    "rich_text_3A6Lk8",
+    "mishmash_logo_mfJ9q6",
+    "image_with_text_v2_Qe3cWC",
+    "video_McmtdL"
+  ]
+}

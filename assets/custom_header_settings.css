@@ -1,0 +1,55 @@
+.top_bar {
+  padding-block: 1rem;
+}
+.menus_items {
+  display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 16px;
+}
+.trust_pilot {
+    display: flex
+;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+.top_bar_menus {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_item {
+      line-height: 1.4;
+    text-decoration: none;
+}
+
+/* For searchbar  */
+
+.search__model__main {
+  max-width: 580px;
+    margin-inline: auto;
+    position: relative;
+}
+.search__model__main .search__input {
+  height: 5rem;
+    padding-left: 1.6rem;
+    padding-right: 6.5rem;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: .5rem;
+    border: 1px solid;
+}
+.search__model__main svg {
+      font-size: 18px;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+account-icon svg{
+ width: 2.4rem;
+  height: 2.4rem;
+}

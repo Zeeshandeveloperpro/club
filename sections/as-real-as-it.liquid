@@ -1,0 +1,150 @@
+<section class="real-life-showcase--absolute">
+  <div class="as_real_life_header">
+    <h2></h2>
+  </div>
+  <div class="relative-wrapper">
+    {% for block in section.blocks %}
+      <div class="rl-card"
+           style="
+             top: {{ block.settings.top }}%;
+             left: {{ block.settings.left }}%;
+             width: {{ block.settings.width }}%;
+           ">
+        <div class="image" style="background-image: url({{ block.settings.image | image_url }});"></div>
+        <div class="label">{{ block.settings.tag }}</div>
+        <div class="info">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .real-life-showcase--absolute {
+    background: #f4f0e9;
+    padding: 100px 0;
+    position: relative;
+  }
+
+  .relative-wrapper {
+    position: relative;
+    height: 1000px; /* adjust this depending on your design */
+  }
+
+  .rl-card {
+    position: absolute;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+
+  .rl-card .image {
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .rl-card .label {
+    background: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 6px;
+    border-radius: 4px;
+  }
+
+  .rl-card .info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .rl-card .info p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  @media screen and (max-width: 768px) {
+    .relative-wrapper {
+      height: auto;
+    }
+    .rl-card {
+      position: static !important;
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "As life as it",
+  "max_blocks": 12,
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "image_card",
+      "name": "Showcase Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Tag (e.g. Product type)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top Position (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "left",
+          "label": "Left Position (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "label": "Card Width (%)",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 30
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "As life as it",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

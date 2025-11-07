@@ -1,0 +1,420 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "custom_liquid_RwJFBT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n<div class=\"short_description\">\n{{ product.metafields.custom.short_description }}\n</div>\n{% endif %}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "custom_liquid_RwJFBT",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "custom_product_pmGdPa": {
+      "type": "custom-product",
+      "blocks": {
+        "title_WakNx8": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_iRbi6A": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "custom_liquid_TDLMzt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n<div class=\"short_description\">\n{{ product.metafields.custom.short_description }}\n</div>\n{% endif %}"
+          }
+        },
+        "custom_liquid_ahfyrQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "variant_picker_cdKTRR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "globo_product_option_app_block_QNNbNd": {
+          "type": "shopify://apps/globo-product-options-variant/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+          "settings": {}
+        },
+        "custom_liquid_PJcQGj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "quantity_selector_jY8jqf": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "custom_liquid_kUTMUa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"seprate_line\">\n\n</div>"
+          }
+        },
+        "upload_logo_4Ce9BQ": {
+          "type": "upload_logo",
+          "settings": {}
+        },
+        "custom_liquid_Cd8wPf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"custom-pen-container\">\n  <p class=\"custom-pen-text\">Vous n’avez aucun design ?</p>\n  <a href=\"https://configurator.prodir.com/en/?reseller=clublab\" \n     class=\"custom-pen-btn\" \n     target=\"_blank\" \n     rel=\"noopener noreferrer\">\n     Custom my pen\n  </a>\n</div>\n\n<style>\n/* Container */\n.custom-pen-container {\n  display: flex;\n  flex-wrap: wrap; /* makes it responsive */\n  justify-content: space-between;\n  align-items: center;\n  background-color: #fefbf2; /* beige background like screenshot */\n  padding: 16px;\n  margin-top: 16px;\n  border-radius: 4px;\n}\n\n/* Text */\n.custom-pen-text {\n  font-size: 16px;\n  margin: 0;\n  color: #333;\n  flex: 1 1 auto;\n}\n\n/* Button */\n.custom-pen-btn {\n  display: inline-block;\n  background-color: #1a1a1a;\n  color: #ffffff;\n  font-size: 16px;\n  font-weight: 500;\n  padding: 12px 24px;\n  text-decoration: none;\n  text-align: center;\n  border-radius: 2px;\n  transition: all 0.3s ease;\n  white-space: nowrap; /* prevents text breaking */\n  margin-top: 10px;\n}\n\n/* Hover effect */\n.custom-pen-btn:hover {\n  background-color: #333333;\n  color: #ffffff;\n}\n\n/* Responsive for small screens */\n@media (max-width: 600px) {\n  .custom-pen-container {\n    flex-direction: column;\n    align-items: flex-start;\n  }\n\n  .custom-pen-btn {\n    width: 100%;\n    text-align: center;\n    margin-top: 12px;\n  }\n}\n</style>"
+          }
+        },
+        "custom_liquid_8NT9J7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"contact_block\">\n<span>\nVous n’avez aucun design ?\n</span>\n\n<a href=\"https://calendly.com/clublab\" class=\"button\">\nPrendre rendez-vous\n</a>\n</div>\n<style>\n.contact_block {\n    display: flex\n;\n    font-size: 14px;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1rem;\n    padding: 2rem;\n    background: #fefbf2;\n}\n</style>"
+          }
+        },
+        "buy_buttons_gYdire": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_VkbznT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"custom-contact-flex-wrapper\">\n  <p class=\"custom-contact-text\">\n    Vous avez des questions ? Contactez-nous dès maintenant :\n  </p>\n  <a href=\"https://club-lab.myshopify.com/pages/contact\" class=\"custom-contact-button\">\n    Contact\n  </a>\n</div>\n\n<style>\n  .custom-contact-flex-wrapper {\n    background-color: #fefbf2; /* Light beige */\n    padding: 2rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1rem;\n  }\n\n  .custom-contact-text {\n    font-size: 1.1rem;\n    color: #1e170d;\n    font-weight: 400;\n    margin: 0;\n  }\n\n  .custom-contact-button {\n    background-color: #1e170d; /* Dark brown */\n    color: white;\n    font-weight: 600;\n    padding: 1rem 2rem;\n    text-decoration: none;\n    border: none; /* Removed white and yellow borders */\n    border-radius: 2px;\n    transition: all 0.3s ease;\n  }\n\n  .custom-contact-button:hover {\n    opacity: 0.9;\n  }\n\n  @media (max-width: 768px) {\n    .custom-contact-flex-wrapper {\n      flex-direction: column;\n      text-align: center;\n    }\n\n    .custom-contact-button {\n      width: 100%;\n      max-width: 200px;\n    }\n  }\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "title_WakNx8",
+        "judge_me_reviews_preview_badge_iRbi6A",
+        "custom_liquid_TDLMzt",
+        "custom_liquid_ahfyrQ",
+        "variant_picker_cdKTRR",
+        "globo_product_option_app_block_QNNbNd",
+        "custom_liquid_PJcQGj",
+        "quantity_selector_jY8jqf",
+        "custom_liquid_kUTMUa",
+        "upload_logo_4Ce9BQ",
+        "custom_liquid_Cd8wPf",
+        "custom_liquid_8NT9J7",
+        "buy_buttons_gYdire",
+        "custom_liquid_VkbznT"
+      ],
+      "custom_css": [
+        ".clublab-add-to-cart {background-color: #281c00;}"
+      ],
+      "name": "Custom product",
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "icon_with_text_xX9aPb": {
+      "type": "icon-with-text",
+      "blocks": {
+        "trustpilot_4w4pdq": {
+          "type": "trustpilot",
+          "disabled": true,
+          "settings": {
+            "trustpilot_brand": "Trustpilot",
+            "rating": 5,
+            "score": "4.8",
+            "review_count": "351"
+          }
+        },
+        "delivery_64TcWY": {
+          "type": "delivery",
+          "settings": {
+            "title": "Livraison mondiale",
+            "subtitle": "EU, UK et USA"
+          }
+        },
+        "quality_CgfmYi": {
+          "type": "quality",
+          "settings": {
+            "title": "Contrôle de qualité",
+            "subtitle": "Chaque commande est vérifiée deux fois avant la production"
+          }
+        },
+        "trust_kp74af": {
+          "type": "trust",
+          "settings": {
+            "title": "Ils nous font confiance !",
+            "subtitle": "Plus de 2 000 clients nous font confiance"
+          }
+        }
+      },
+      "block_order": [
+        "trustpilot_4w4pdq",
+        "delivery_64TcWY",
+        "quality_CgfmYi",
+        "trust_kp74af"
+      ],
+      "name": "icon with text",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "badge_background": "#fefbf2",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20,
+        "container_width": 1200,
+        "min_badge_width": 280,
+        "gap": 20,
+        "border_radius": 12,
+        "shadow": "",
+        "border_width": 0,
+        "border_color": "#e0e0e0"
+      }
+    },
+    "product_tabs_yc6RxW": {
+      "type": "product-tabs",
+      "blocks": {
+        "text_BqUfDG": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Description",
+            "z_rich_text": "{{ product.description }}"
+          }
+        },
+        "text_QkHTry": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Specifications",
+            "z_rich_text": "{{ product.metafields.custom.specifications | metafield_tag }}"
+          }
+        },
+        "text_93GgcQ": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Customization",
+            "z_rich_text": "{{ product.metafields.custom.customization | metafield_tag }}"
+          }
+        },
+        "text_Hbfa69": {
+          "type": "Text",
+          "settings": {
+            "z_text_heading": "Production",
+            "z_rich_text": "{{ product.metafields.custom.production | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_BqUfDG",
+        "text_QkHTry",
+        "text_93GgcQ",
+        "text_Hbfa69"
+      ],
+      "name": "Product tabs",
+      "settings": {
+        "z_upsell_heading": ""
+      }
+    },
+    "1757077011605ee6a0": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_jGMWrL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_jGMWrL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1754229379e963d860": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "faq_7PnXcT": {
+      "type": "FAQ",
+      "blocks": {
+        "z_faq_Fixxfm": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Quels services propose Clublab ?",
+            "z_answer": "<p>Clublab est spécialisé dans la personnalisation et la création textile, offrant des services tels que la sérigraphie, la broderie, le flocage, l’impression numérique, le branding, le sourcing et des solutions d’emballage sur mesure.</p>"
+          }
+        },
+        "z_faq_XLn3Nf": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Fournissez-vous un BAT (Bon à Tirer) avant la production ?",
+            "z_answer": "<p>Oui. Après réception des spécifications de votre design, nous vous envoyons une maquette visuelle (BAT) pour validation. La production ne commence qu’une fois votre accord donné.</p>"
+          }
+        },
+        "z_faq_QqGcEq": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Y a-t-il une quantité minimale de commande (MOQ) ?",
+            "z_answer": "<p>Chaque produit peut avoir une quantité minimale de commande (MOQ) définie par nos partenaires de production, que vous pouvez consulter sur la page dédiée du produit.</p>"
+          }
+        },
+        "z_faq_KUpNyX": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Où êtes-vous situés et livrez-vous à l’international ?",
+            "z_answer": "<p>Basé à Lille, France (12 rue de Marcq en Baroeul, Wasquehal), Clublab sert des clients dans le monde entier et peut expédier vers la plupart des destinations internationales.</p>"
+          }
+        },
+        "z_faq_zkq9Y3": {
+          "type": "z_faq",
+          "settings": {
+            "z_question": "Puis-je consulter un catalogue de vos produits ?",
+            "z_answer": "<p>Nous ne proposons pas de catalogue statique. Nos offres sont très personnalisées et évoluent constamment ; nous préférons échanger directement avec vous afin de recommander les meilleures options adaptées à votre projet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "z_faq_Fixxfm",
+        "z_faq_XLn3Nf",
+        "z_faq_QqGcEq",
+        "z_faq_KUpNyX",
+        "z_faq_zkq9Y3"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "bg_clr": "#fefbf2",
+        "z_heading_color": "#000000",
+        "z_heading": "Questions fréquemment posées",
+        "sub_heading": "Besoin d'aide ? Consultez notre résumé des questions les plus fréquemment posées sur la livraison, les retours, les échantillons, l'approvisionnement, les prix et bien plus encore !",
+        "button_text": "View More",
+        "url": "shopify://pages/faq",
+        "z_answer_bgcolor": "",
+        "z_question_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_product_pmGdPa",
+    "icon_with_text_xX9aPb",
+    "product_tabs_yc6RxW",
+    "1757077011605ee6a0",
+    "1754229379e963d860",
+    "related-products",
+    "faq_7PnXcT"
+  ]
+}

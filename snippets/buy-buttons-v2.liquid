@@ -1,0 +1,531 @@
+<style>
+    .clublab-pricing-wrapper {
+        border-radius: 0px;
+        padding: 18px 0px;
+        /* background: #efeae2; */
+        border-top: 1px solid;
+        position: sticky;
+        bottom: 0;
+        background: white;
+
+        .clublab-pricing-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 40px;
+        }
+
+        .clublab-pricing-details {
+            display: flex;
+            flex: 1;
+            gap: 12px;
+            /* align-items: center; */
+            flex-direction: column;
+        }
+
+        .clublab-leadtime-section {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .clublab-leadtime-label {
+            font-size: 14px;
+            color: #8f8f8f;
+            font-weight: 400;
+            /* white-space: nowrap; */
+            letter-spacing: 0;
+        }
+
+        .clublab-leadtime-value {
+            font-size: 14px;
+            color: #000;
+            white-space: nowrap;
+        }
+
+        .clublab-help-icon {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+            display: none;
+        }
+
+        .clublab-help-icon:hover {
+            border-color: #6b7280;
+            background-color: #f9fafb;
+        }
+
+        .clublab-help-icon::after {
+            content: "?";
+            font-size: 12px;
+            color: #6b7280;
+            font-weight: 600;
+        }
+
+        .clublab-pricing-section {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .clublab-price-unit {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .clublab-price-label {
+            font-size: 16px;
+            color: #9ca3af;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+
+        .clublab-price-value {
+            font-size: 16px;
+            color: #000;
+
+        }
+
+        .clublab-total-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .clublab-total-label {
+            font-size: 16px;
+            color: #9ca3af;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+
+        .clublab-total-value {
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+        }
+
+        .clublab-cart-section {
+            flex-shrink: 0;
+        }
+
+        .clublab-add-to-cart {
+            background-color: #1f2937;
+            color: #ffffff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+
+        .clublab-add-to-cart span {
+            color: inherit;
+        }
+
+        .clublab-cart-icon {
+            width: 20px;
+            height: 20px;
+            stroke-width: 2;
+            stroke: #fff;
+        }
+
+        /* Tooltip styles */
+        .clublab-tooltip {
+            position: relative;
+        }
+
+        .clublab-tooltip::before {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #1f2937;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 1000;
+            margin-bottom: 8px;
+        }
+
+        .clublab-tooltip::after {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid transparent;
+            border-top-color: #1f2937;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            margin-bottom: 3px;
+        }
+
+        .clublab-tooltip:hover::before,
+        .clublab-tooltip:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Responsive design */
+        @media (max-width: 1024px) {
+            .clublab-pricing-details {}
+
+            .clublab-pricing-section {
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .clublab-pricing-wrapper {}
+
+            .clublab-pricing-container {
+                flex-direction: column;
+                gap: 8px;
+                align-items: stretch;
+            }
+
+            .clublab-pricing-details {
+                flex-direction: column;
+                gap: 20px;
+                align-items: stretch;
+            }
+
+            .clublab-pricing-section {
+                justify-content: space-between;
+                gap: 20px;
+            }
+
+            .clublab-leadtime-section {
+                justify-content: space-between;
+            }
+
+            .clublab-add-to-cart {
+                width: 100%;
+                justify-content: center;
+                padding: 18px 32px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .clublab-pricing-wrapper {}
+
+            .clublab-pricing-details {
+                gap: 8px;
+            }
+
+            .clublab-pricing-section {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+
+            .clublab-price-unit,
+            .clublab-total-section {
+                justify-content: space-between;
+            }
+
+            .clublab-leadtime-label,
+            .clublab-price-label,
+            .clublab-total-label {
+                font-size: 13px;
+            }
+
+            .clublab-leadtime-value,
+            .clublab-price-value {
+                font-size: 13px;
+            }
+
+            .clublab-total-value {
+                font-size: 18px;
+            }
+        }
+
+        /* Animation for cart button */
+        @keyframes clublab-cart-pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .clublab-add-to-cart.clublab-animate {
+            animation: clublab-cart-pulse 0.6s ease-in-out;
+        }
+
+        /* Loading state */
+        .clublab-add-to-cart.clublab-loading {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .clublab-add-to-cart.clublab-loading::after {
+            content: "";
+            width: 16px;
+            height: 16px;
+            border: 2px solid transparent;
+            border-top-color: #ffffff;
+            border-radius: 50%;
+            animation: clublab-spin 1s linear infinite;
+            margin-left: 8px;
+        }
+
+        @keyframes clublab-spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+</style>
+
+<div class="clublab-pricing-wrapper">
+    <div class="clublab-pricing-container">
+        <div class="clublab-pricing-details">
+            <div class="clublab-leadtime-section">
+                <span class="clublab-leadtime-label">délai de mise en œuvre:</span>
+                <span class="clublab-leadtime-value">Environ 8 à 14 jours ouvrables</span>
+                <div class="clublab-help-icon clublab-tooltip"
+                    data-tooltip="Expected delivery timeframe for your order"></div>
+            </div>
+
+            <div class="clublab-pricing-section">
+                <div class="clublab-price-unit">
+                    <span class="clublab-price-label">Prix unitaire :</span>
+                    <span class="clublab-price-value"
+                        data-gpoprice="0"
+                        data-price="{{ product.selected_or_first_available_variant.price 
+   | money_without_currency 
+   | replace: ',' , '.' }}">{{
+                        product.selected_or_first_available_variant.price | money_without_currency }} {{
+                        cart.currency.symbol }}</span>
+                </div>
+
+                <div class="clublab-total-section">
+                    <span class="clublab-total-label">Total:</span>
+                    <span class="clublab-total-value">{{ product.selected_or_first_available_variant.price |
+                        money_without_currency }} {{ cart.currency.symbol }}</span>
+                    <div class="clublab-help-icon clublab-tooltip"
+                        data-tooltip="Total price including all items and applicable taxes"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clublab-cart-section">
+            {% assign available = false %}
+            {% if product.selected_or_first_available_variant.available or
+            product.first_available_variant.inventory_policy == 'continue' %}
+            {% assign available = true %}
+
+
+            {% endif %}
+            <button class="clublab-add-to-cart" onclick="clublab_addToCart(this.dataset.variantId)"
+                data-variant-id="{{ product.selected_or_first_available_variant.id }}" {% if
+                product.selected_or_first_available_variant.available or
+                product.first_available_variant.inventory_policy=='continue' %} {% else %} disabled {% endif %}>
+                {% if available%}
+                <span>Ajouter au panier</span>
+                {% else %}
+                <span>En rupture de stock</span>
+                {% endif %}
+                <svg class="clublab-cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5H2m5 8v6a2 2 0 002 2h6a2 2 0 002-2v-6M9 19h6"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function clublab_addToCart(id) {
+        const button = document.querySelector('.clublab-add-to-cart');
+
+        // Add loading state
+        button.classList.add('clublab-loading');
+
+        // Simulate cart addition (replace with actual cart logic)
+        setTimeout(() => {
+            button.classList.remove('clublab-loading');
+            button.classList.add('clublab-animate');
+
+            // Remove animation class after animation completes
+            setTimeout(() => {
+                button.classList.remove('clublab-animate');
+            }, 600);
+
+            // Optional: Show success message or redirect
+            console.log('Item added to cart!');
+        }, 1500);
+        let wrapper = document.querySelector(".product__info-wrapper input[name='quantity']")
+        let quantity = wrapper ? Number(wrapper.value) : 1;
+        let props = {};
+        if (document.querySelector(".defined_minimum")) {
+            if (quantity >= Number(wrapper.dataset.quantity)) {
+
+        }
+            else {
+            alertify.warning(`Invalid quantity — should be minimum ${wrapper.dataset.quantity}`);
+            return;
+        }
+    }
+    
+    let formData = {
+        'items': [{
+            'id': Number(id),
+            'quantity': quantity
+        }
+        
+    ]
+    };
+    if (document.querySelector("#sizes")?.checked) {
+        let quantity_items = document.querySelectorAll(".quantity_item");
+        if (quantity_items) {
+            quantity_items.forEach((quantity_item) => {
+                let sizes_name = quantity_item.querySelector(".quantity_heading").textContent.trim();
+                let sizes_value = quantity_item.querySelector("input").value || 0;
+                props[`Size-${sizes_name}`] = `${sizes_value}`
+            })
+           
+        }
+    }
+
+   const noDesignCheckbox = document.getElementById('club-noDesignCheckbox');
+const frontUpload = document.getElementById("upload_front");
+const frontfile = document.getElementById("club-frontInput");
+const back_front = document.getElementById("back_front");
+const backfile = document.querySelector("#club-backUpload");
+
+if (noDesignCheckbox && noDesignCheckbox.querySelector("input")?.checked) {
+    // When "I don't have a design" is checked
+    if (frontUpload?.checked) {
+        props["Front"] = "printing";
+    }
+    if (back_front?.checked) {
+        props["Back"] = "printing";
+    }
+} else {
+    // Validate front design if selected
+     if (frontUpload.checked) {
+        if (frontfile?.files?.length === 0) {
+            alertify.warning("Si vous n'avez pas de design, veuillez cocher « Je n'ai pas de design »");
+            console.log("front missing file");
+            return;
+        }
+    }
+    // Validate back
+    if (back_front.checked) {
+        if (backfile?.files?.length === 0) {
+            alertify.warning("Si vous n'avez pas de design, veuillez cocher « Je n'ai pas de design »");
+            console.log("back missing file");
+            return;
+        }
+    }
+}
+let check = false
+let gpo = document.querySelectorAll(".show-addon-for-option");
+console.log("gpo" , gpo)
+if(gpo.length > 0) {
+for (let i = 0; i < gpo.length; i++) {
+  let gp = gpo[i];
+  if (gp.dataset.elementId === 'buttons-1') {
+    let input = gp.querySelector("input:checked");
+    if (!input) {
+      gp.querySelector(".messages").innerHTML = "please select field";
+       check = true
+      break; 
+    }
+     props["Technique de personnalisation" ] = `${input.value}`
+
+  }
+  else if(gp.dataset.cloDisplay === "hide") {
+     let input = gp.querySelector("input:checked");
+    if (!input) {
+      gp.querySelector(".messages").innerHTML = "please select field";
+       check = true
+      break; 
+    }
+    formData.items.push({
+    'id': Number(input.getAttribute("gpo-data-variant-id")),
+    'quantity': quantity
+});
+
+  
+    console.log("hide" , items)
+    
+}
+}
+}
+
+if(check) {
+  return;
+}
+     if (Object.keys(props).length > 0) {
+        formData.items[0].properties = props;
+    }
+    console.log("formData" , formData , props)
+    let cart = document.querySelector("cart-drawer");
+    if (cart) {
+        formData['sections'] = cart.getSectionsToRender().map((section) => section.id)
+
+        formData['sections_url'] = window.location.pathname;
+        console.log("formData", formData)
+    }
+    fetch(window.Shopify.routes.root + 'cart/add.js', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+    })
+        .then(response => {
+            return response.json();
+        })
+        .then(response => {
+            console.log("response", response)
+            cart.classList.remove("is-empty")
+            window.location = window.routes.cart_url;
+            {% comment %} if (cart) {
+
+                cart.renderContents(response)
+                cart.classList.remove("is-empty")
+            } else {
+                window.location.href = '/cart'
+            } {% endcomment %}
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    console.log("id", id, quantity)
+    }
+
+
+</script>
